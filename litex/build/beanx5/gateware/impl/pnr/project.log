@@ -1,0 +1,6 @@
+Reading netlist file: "/home/aj/beanx5/litex/build/beanx5/gateware/impl/gwsynthesis/project.vg"
+Parsing netlist file "/home/aj/beanx5/litex/build/beanx5/gateware/impl/gwsynthesis/project.vg" completed
+Processing netlist completed
+Reading constraint file: "/home/aj/beanx5/litex/build/beanx5/gateware/minimal_beanx5.cst"
+ERROR  (CT1113) : "/home/aj/beanx5/litex/build/beanx5/gateware/minimal_beanx5.cst":3 | Can't find pad location 'C4' in current package
+Physical Constraint parsed completed with errors
