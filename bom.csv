@@ -1,0 +1,29 @@
+Designator,Quantity,Component,Description,Package/Footprint,LCSC Part #,JLCPCB Part Type,Est Unit Price (USD),Subtotal (USD)
+U1,1,GW5A-LV25MG121NC1/I0,"Gowin Arora-V 23K LUT FPGA, 121-ball MBGA",BGA-121_9.0x9.0mm_P0.8mm,C5364132,Extended,45.50,45.50
+U2,1,BL616,"Bouffalo Lab RISC-V Wi-Fi/BLE MCU (USB JTAG + UART Debugger)",QFN-40_5.0x5.0mm_P0.4mm,C5314781,Extended,1.85,1.85
+U3,1,W25Q64JVSSIQ,"64M-bit (8MB) SPI NOR Flash, 133MHz",SOIC-8_208mil,C96557,Basic,0.42,0.42
+U4,1,TLV62569DBVR,"Buck Converter 3.3V to 1.2V Core VCC (2A)",SOT-23-5,C191490,Basic,0.35,0.35
+U5,1,TLV62569DBVR,"Buck Converter 5V to 3.3V VCCIO/System (2A)",SOT-23-5,C191490,Basic,0.35,0.35
+U6,1,TLV73325PDBVR,"LDO 3.3V to 2.5V Auxiliary VCCX (300mA)",SOT-23-5,C495821,Basic,0.22,0.22
+U7,1,TLV73318PDBVR,"LDO 3.3V to 1.8V VDD18 (300mA)",SOT-23-5,C495822,Basic,0.22,0.22
+Y1,1,27MHz,"27.000MHz Crystal Oscillator (FPGA System Clock)",SMD-3225-4P,C388914,Basic,0.18,0.18
+Y2,1,40MHz,"40.000MHz Crystal Oscillator (BL616 Debugger Clock)",SMD-3225-4P,C115962,Basic,0.15,0.15
+J1,1,TYPE-C-16P,"USB Type-C Receptacle 16-Pin (Power, JTAG & Serial UART)",SMD_USB-C-16P,C7204787,Basic,0.25,0.25
+J2,1,HDMI-A-19P,"HDMI Type-A Female Receptacle (DVI/HDMI Out)",SMD_HDMI-19P,C92348,Extended,0.45,0.45
+J3,1,MICRO-SD-01,"MicroSD / TF Card Socket (Push-Pull, SPI/SDIO Mode)",SMD_MicroSD-9P,C3000407,Basic,0.28,0.28
+J4,1,2x10-P2.54,"2x10 Pin Header 2.54mm Pitch (GPIO / RMII Ethernet Extension)",HDR-2x10_P2.54mm,C225501,Basic,0.15,0.15
+L1-L2,2,2.2uH,"Power Inductor 2.2uH 2.5A Shielded",SMD-0805 / 2016,C38117,Basic,0.06,0.12
+D1-D4,4,ESD5304D,"Ultra-low Cap ESD Diode Array for HDMI / USB",DFN-10_2.5x1.0mm,C259021,Basic,0.08,0.32
+D5-D7,3,LED-0603,"Status LEDs (Power, FPGA DONE, User Status)",LED-0603,C2286,Basic,0.02,0.06
+SW1-SW2,2,TS-1187A,"Tactile Push Button Switches (Reset / User)",SMD-3.0x4.0mm,C318884,Basic,0.04,0.08
+R_BASIC,24,Resistors,"Assorted Resistors (0402/0603: Pull-ups, Termination, CC pins)",SMD-0402 / 0603,C25077,Basic,0.005,0.12
+C_BASIC,32,Capacitors,"Assorted Decoupling & Filter Caps (0402/0603: 0.1uF, 1uF, 10uF, 22uF)",SMD-0402 / 0603,C1525,Basic,0.006,0.19
+# --- JLCPCB ASSEMBLY & MANUFACTURING ESTIMATE (5 Boards Batch) ---,,,,,,,,
+# Service Item,Qty,Details,Per Board (USD),Total Batch (USD),,,,
+# PCB Fabrication (4-Layer ENIG Impedance Controlled 50x50mm),5,JLCPCB JLC04161H-7628 / ENIG,3.60,18.00,,,,
+# SMT Setup Fee (Economic PCBA),1,Machine programming & visual alignment,1.64,8.18,,,,
+# SMT Stencil Fee,1,Laser cut stainless steel SMT stencil,0.31,1.53,,,,
+# Solder Joints Fee (~180 SMD joints per board),900 joints,$0.0016 per joint across 5 boards,0.29,1.44,,,,
+# Extended Component Feeder Loading Fee (3 extended parts),3 parts,$3.07 per unique part (GW5A + BL616 + HDMI),1.84,9.21,,,,
+# Components Total (All 5 Boards),5 sets,$51.98 per board set of parts,51.98,259.90,,,,
+# Total Estimated Cost per Assembled Board (5 units batch),,,,59.66,,,,

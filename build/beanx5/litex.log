@@ -1,0 +1,355 @@
+# LiteX build log
+# Started: 2026-10-21T21:57:58
+# Command: litex/minimal_beanx5.py --build
+# Working directory: /home/aj/beanx5
+
+INFO:SoC:        __   _ __      _  __  
+INFO:SoC:       / /  (_) /____ | |/_/  
+INFO:SoC:      / /__/ / __/ -_)>  <    
+INFO:SoC:     /____/_/\__/\__/_/|_|  
+INFO:SoC:  Build your hardware, easily!
+INFO:SoC:--------------------------------------------------------------------------------
+INFO:SoC:Creating SoC... (2026-10-21 21:57:58)
+INFO:SoC:--------------------------------------------------------------------------------
+INFO:SoC:FPGA device : GW5A-LV25MG121NC1/I0.
+INFO:SoC:System clock: 27.000MHz.
+INFO:SoCBusHandler:Creating Bus Handler...
+INFO:SoCBusHandler:32-bit wishbone Bus, 4.0GiB Address Space.
+INFO:SoCBusHandler:Adding reserved Bus Regions...
+INFO:SoCBusHandler:Bus Handler created.
+INFO:SoCCSRHandler:Creating CSR Handler...
+INFO:SoCCSRHandler:32-bit CSR Bus, 32-bit Aligned, 16.0KiB Address Space, 2048B Paging, big Ordering (Up to 32 Locations).
+INFO:SoCCSRHandler:Adding reserved CSRs...
+INFO:SoCCSRHandler:CSR Handler created.
+INFO:SoCIRQHandler:Creating IRQ Handler...
+INFO:SoCIRQHandler:IRQ Handler (up to 32 Locations).
+INFO:SoCIRQHandler:Adding reserved IRQs...
+INFO:SoCIRQHandler:IRQ Handler created.
+INFO:SoC:--------------------------------------------------------------------------------
+INFO:SoC:Initial SoC:
+INFO:SoC:--------------------------------------------------------------------------------
+INFO:SoC:32-bit wishbone Bus, 4.0GiB Address Space.
+INFO:SoC:32-bit CSR Bus, 32-bit Aligned, 16.0KiB Address Space, 2048B Paging, big Ordering (Up to 32 Locations).
+INFO:SoC:IRQ Handler (up to 32 Locations).
+INFO:SoC:--------------------------------------------------------------------------------
+INFO:SoC:Controller ctrl added.
+INFO:SoC:CPU vexriscv added.
+INFO:SoC:CPU vexriscv adding IO Region 0 at 0x80000000 (Size: 0x80000000).
+INFO:SoCBusHandler:io0 Region added at Origin: 0x80000000, Size: 0x80000000, Mode:  RW, Cached: False, Linker: False.
+INFO:SoC:CPU vexriscv overriding sram mapping from 0x01000000 to 0x10000000.
+INFO:SoC:CPU vexriscv setting reset address to 0x00000000.
+INFO:SoC:CPU vexriscv adding Bus Master(s).
+INFO:SoCBusHandler:cpu_bus0 added as Bus Master.
+INFO:SoCBusHandler:cpu_bus1 added as Bus Master.
+INFO:SoC:CPU vexriscv adding Interrupt(s).
+INFO:SoC:CPU vexriscv adding SoC components.
+INFO:SoCBusHandler:rom Region added at Origin: 0x00000000, Size: 0x00008000, Mode:  RX, Cached:  True, Linker: False.
+INFO:SoCBusHandler:rom added as Bus Slave.
+INFO:SoC:RAM rom added Origin: 0x00000000, Size: 0x00008000, Mode:  RX, Cached:  True, Linker: False.
+INFO:SoCBusHandler:sram Region added at Origin: 0x10000000, Size: 0x00008000, Mode: RWX, Cached:  True, Linker: False.
+INFO:SoCBusHandler:sram added as Bus Slave.
+INFO:SoC:RAM sram added Origin: 0x10000000, Size: 0x00008000, Mode: RWX, Cached:  True, Linker: False.
+INFO:SoCIRQHandler:uart IRQ allocated at Location 0.
+INFO:SoCIRQHandler:timer0 IRQ allocated at Location 1.
+INFO:SoC:CSR Bridge csr added.
+INFO:SoCBusHandler:csr Region added at Origin: 0xf0000000, Size: 0x00010000, Mode:  RW, Cached: False, Linker: False.
+INFO:SoCBusHandler:csr added as Bus Slave.
+INFO:SoCCSRHandler:csr added as CSR Master.
+INFO:SoCBusHandler:Interconnect: InterconnectShared (2 <-> 3).
+INFO:SoCCSRHandler:ctrl CSR allocated at Location 0.
+INFO:SoCCSRHandler:timer0 CSR allocated at Location 1.
+INFO:SoCCSRHandler:uart CSR allocated at Location 2.
+INFO:SoC:--------------------------------------------------------------------------------
+INFO:SoC:Finalized SoC:
+INFO:SoC:--------------------------------------------------------------------------------
+INFO:SoC:32-bit wishbone Bus, 4.0GiB Address Space.
+IO Regions: (1)
+io0                 : Origin: 0x80000000, Size: 0x80000000, Mode:  RW, Cached: False, Linker: False
+Bus Regions: (3)
+rom                 : Origin: 0x00000000, Size: 0x00008000, Mode:  RX, Cached:  True, Linker: False
+sram                : Origin: 0x10000000, Size: 0x00008000, Mode: RWX, Cached:  True, Linker: False
+csr                 : Origin: 0xf0000000, Size: 0x00010000, Mode:  RW, Cached: False, Linker: False
+Bus Masters: (2)
+- cpu_bus0          : rw
+- cpu_bus1          : rw
+Bus Slaves: (3)
+- rom               : r
+- sram              : rw
+- csr               : rw
+INFO:SoC:32-bit CSR Bus, 32-bit Aligned, 16.0KiB Address Space, 2048B Paging, big Ordering (Up to 32 Locations).
+CSR Locations: (3)
+- ctrl   : 0
+- timer0 : 1
+- uart   : 2
+INFO:SoC:IRQ Handler (up to 32 Locations).
+IRQ Locations: (2)
+- uart   : 0
+- timer0 : 1
+INFO:SoC:--------------------------------------------------------------------------------
+INFO:SoC:--------------------------------------------------------------------------------
+INFO:SoC:SoC Hierarchy:
+INFO:SoC:--------------------------------------------------------------------------------
+INFO:SoC:
+BaseSoC
+├── bus (SoCBusHandler)
+│    └── _interconnect (InterconnectShared)
+│         ├── arbiter (Arbiter)
+│         │    └── rr (RoundRobin)
+│         ├── decoder (Decoder)
+│         └── timeout (Timeout)
+│              └── waittimer_0 (WaitTimer) [Gen]
+├── csr (SoCCSRHandler)
+├── irq (SoCIRQHandler)
+├── ctrl (SoCController)
+├── cpu (VexRiscv)
+│    └── [BB:VexRiscv]
+├── rom (SRAM)
+├── sram (SRAM)
+├── uart (UART)
+│    ├── ev (EventManager)
+│    │    ├── eventsourcelevel_0 (EventSourceLevel) [Gen]
+│    │    └── eventsourcelevel_1 (EventSourceLevel) [Gen]
+│    ├── phy (RS232PHY)
+│    │    ├── tx (RS232PHYTX)
+│    │    │    ├── clk_phase_accum (RS232ClkPhaseAccum)
+│    │    │    └── fsm (FSM)
+│    │    └── rx (RS232PHYRX)
+│    │         ├── clk_phase_accum (RS232ClkPhaseAccum)
+│    │         └── fsm (FSM)
+│    ├── tx_fifo (SyncFIFO)
+│    │    └── fifo (SyncFIFOBuffered)
+│    │         └── fifo (SyncFIFO)
+│    └── rx_fifo (SyncFIFO)
+│         └── fifo (SyncFIFOBuffered)
+│              └── fifo (SyncFIFO)
+├── timer0 (Timer)
+│    └── ev (EventManager)
+│         └── eventsourceprocess_0 (EventSourceProcess) [Gen]
+├── crg (CRG)
+├── csr_bridge (Wishbone2CSR)
+│    └── fsm (FSM)
+├── csr_bankarray (CSRBankArray)
+│    ├── csrbank_0 (CSRBank) [Gen]
+│    │    ├── csrstorage_0 (CSRStorage) [Gen]
+│    │    ├── csrstorage_1 (CSRStorage) [Gen]
+│    │    └── csrstatus_0 (CSRStatus) [Gen]
+│    ├── csrbank_1 (CSRBank) [Gen]
+│    │    ├── csrstorage_0 (CSRStorage) [Gen]
+│    │    ├── csrstorage_1 (CSRStorage) [Gen]
+│    │    ├── csrstorage_2 (CSRStorage) [Gen]
+│    │    ├── csrstorage_3 (CSRStorage) [Gen]
+│    │    ├── csrstatus_0 (CSRStatus) [Gen]
+│    │    ├── csrstatus_1 (CSRStatus) [Gen]
+│    │    ├── csrstatus_2 (CSRStatus) [Gen]
+│    │    └── csrstorage_4 (CSRStorage) [Gen]
+│    └── csrbank_2 (CSRBank) [Gen]
+│         ├── csrstatus_0 (CSRStatus) [Gen]
+│         ├── csrstatus_1 (CSRStatus) [Gen]
+│         ├── csrstatus_2 (CSRStatus) [Gen]
+│         ├── csrstatus_3 (CSRStatus) [Gen]
+│         ├── csrstorage_0 (CSRStorage) [Gen]
+│         ├── csrstatus_4 (CSRStatus) [Gen]
+│         └── csrstatus_5 (CSRStatus) [Gen]
+└── csr_interconnect (InterconnectShared)
+Legend:
+  [Gen]: Auto-generated instance name.
+  [BB:NAME]: Blackbox instance (verilog Instance).
+
+INFO:SoC:--------------------------------------------------------------------------------
+make: Entering directory '/home/aj/beanx5/build/beanx5/software/libc'
+rm -f -r /home/aj/beanx5/build/beanx5/software/include/../picolibc_src
+cp -a /home/aj/pythondata-software-picolibc/pythondata_software_picolibc/data /home/aj/beanx5/build/beanx5/software/include/../picolibc_src
+if [ -d "/home/aj/litex/litex/soc/software/libc/riscv" ]; then \
+	cp /home/aj/litex/litex/soc/software/libc/riscv/* /home/aj/beanx5/build/beanx5/software/include/../picolibc_src/libc/machine/riscv/ ;\
+fi
+make: Leaving directory '/home/aj/beanx5/build/beanx5/software/libc'
+make: Entering directory '/home/aj/beanx5/build/beanx5/software/libcompiler_rt'
+make: Nothing to be done for 'all'.
+make: Leaving directory '/home/aj/beanx5/build/beanx5/software/libcompiler_rt'
+make: Entering directory '/home/aj/beanx5/build/beanx5/software/libbase'
+ CC       console.o
+ CC       timeout.o
+ CC       system.o
+ CC       memtest.o
+ CC       uart.o
+ CC       startup.o
+ CC       spiflash.o
+ CC       i2c.o
+ CC       isr.o
+ CC       hyperram.o
+ AR       libbase.a
+make: Leaving directory '/home/aj/beanx5/build/beanx5/software/libbase'
+make: Entering directory '/home/aj/beanx5/build/beanx5/software/libfatfs'
+make: Nothing to be done for 'all'.
+make: Leaving directory '/home/aj/beanx5/build/beanx5/software/libfatfs'
+make: Entering directory '/home/aj/beanx5/build/beanx5/software/liblitespi'
+ CC       spiflash.o
+ CC       spiram.o
+ AR       liblitespi.a
+make: Leaving directory '/home/aj/beanx5/build/beanx5/software/liblitespi'
+make: Entering directory '/home/aj/beanx5/build/beanx5/software/liblitedram'
+ CC       sdram.o
+ CC       bist.o
+ CC       sdram_dbg.o
+ CC       sdram_spd.o
+ CC       utils.o
+ CC       accessors.o
+ AR       liblitedram.a
+make: Leaving directory '/home/aj/beanx5/build/beanx5/software/liblitedram'
+make: Entering directory '/home/aj/beanx5/build/beanx5/software/libliteeth'
+ CC       udp.o
+ CC       tftp.o
+ CC       mdio.o
+ CC       dhcp.o
+ CC       sfp.o
+/home/aj/litex/litex/soc/software/libliteeth/sfp.c:816:6: warning: no previous prototype for 'sfp_init' [-Wmissing-prototypes]
+  816 | void sfp_init(void) {}
+      |      ^~~~~~~~
+ AR       libliteeth.a
+make: Leaving directory '/home/aj/beanx5/build/beanx5/software/libliteeth'
+make: Entering directory '/home/aj/beanx5/build/beanx5/software/liblitesdcard'
+ CC       sdcard.o
+ CC       spisdcard.o
+ AR       liblitesdcard.a
+make: Leaving directory '/home/aj/beanx5/build/beanx5/software/liblitesdcard'
+make: Entering directory '/home/aj/beanx5/build/beanx5/software/liblitesata'
+ CC       sata.o
+ AR       liblitesata.a
+make: Leaving directory '/home/aj/beanx5/build/beanx5/software/liblitesata'
+make: Entering directory '/home/aj/beanx5/build/beanx5/software/bios'
+ CC       boot.o
+ CC       cmd_bios.o
+ CC       cmd_mem.o
+ CC       cmd_boot.o
+ CC       cmd_i2c.o
+ CC       cmd_spiflash.o
+ CC       cmd_litedram.o
+ CC       cmd_liteeth.o
+ CC       cmd_litesdcard.o
+ CC       cmd_litesata.o
+ CC       sim_debug.o
+ CC       main.o
+ CC       bios.elf
+/usr/riscv64-elf/bin/ld: warning: bios.elf has a LOAD segment with RWX permissions
+chmod -x bios.elf
+ OBJCOPY  bios.bin
+chmod -x bios.bin
+python3 -m litex.soc.software.crcfbigen bios.bin --little
+python3 -m litex.soc.software.memusage  bios.elf /home/aj/beanx5/build/beanx5/software/bios/../include/generated/regions.ld riscv64-unknown-elf
+
+ROM usage: 22.79KiB 	(71.20%)
+SRAM usage: 0.95KiB 	(2.95%)
+  .data: 0.02KiB
+  .bss: 0.93KiB
+  stack margin: 31.05KiB
+
+make: Leaving directory '/home/aj/beanx5/build/beanx5/software/bios'
+INFO:SoC:Initializing ROM rom with contents (Size: 0x5b2c).
+INFO:SoC:Auto-Resizing ROM rom from 0x8000 to 0x5b2c.
+*** GOWIN Tcl Command Line Console  *** 
+current device: GW5A-25A  GW5A-LV25MG121NC1/I0
+add new file: "minimal_beanx5.cst"
+add new file: "minimal_beanx5.sdc"
+add new file: "/home/aj/pythondata-cpu-vexriscv/pythondata_cpu_vexriscv/verilog/VexRiscv.v"
+add new file: "/home/aj/beanx5/build/beanx5/gateware/minimal_beanx5.v"
+GowinSynthesis start
+Running parser ...
+Analyzing Verilog file '/home/aj/pythondata-cpu-vexriscv/pythondata_cpu_vexriscv/verilog/VexRiscv.v'
+Analyzing Verilog file '/home/aj/beanx5/build/beanx5/gateware/minimal_beanx5.v'
+Compiling module 'minimal_beanx5'("/home/aj/beanx5/build/beanx5/gateware/minimal_beanx5.v":23)
+WARN  (EX3780) : Using initial value of 'basesoc_adr_burst' since it is never assigned("/home/aj/beanx5/build/beanx5/gateware/minimal_beanx5.v":109)
+WARN  (EX3780) : Using initial value of 'basesoc_ram_bus_err' since it is never assigned("/home/aj/beanx5/build/beanx5/gateware/minimal_beanx5.v":118)
+WARN  (EX3780) : Using initial value of 'interface0_err' since it is never assigned("/home/aj/beanx5/build/beanx5/gateware/minimal_beanx5.v":246)
+WARN  (EX3780) : Using initial value of 'ram_adr_burst' since it is never assigned("/home/aj/beanx5/build/beanx5/gateware/minimal_beanx5.v":271)
+WARN  (EX3780) : Using initial value of 'ram_bus_ram_bus_err' since it is never assigned("/home/aj/beanx5/build/beanx5/gateware/minimal_beanx5.v":279)
+WARN  (EX3780) : Using initial value of 'uart_core_rx_fifo_replace' since it is never assigned("/home/aj/beanx5/build/beanx5/gateware/minimal_beanx5.v":388)
+WARN  (EX3780) : Using initial value of 'uart_core_rx_source_first' since it is never assigned("/home/aj/beanx5/build/beanx5/gateware/minimal_beanx5.v":415)
+WARN  (EX3780) : Using initial value of 'uart_core_rx_source_last' since it is never assigned("/home/aj/beanx5/build/beanx5/gateware/minimal_beanx5.v":416)
+WARN  (EX3780) : Using initial value of 'uart_core_tx_fifo_replace' since it is never assigned("/home/aj/beanx5/build/beanx5/gateware/minimal_beanx5.v":463)
+WARN  (EX3780) : Using initial value of 'uart_core_tx_fifo_sink_first' since it is never assigned("/home/aj/beanx5/build/beanx5/gateware/minimal_beanx5.v":464)
+WARN  (EX3780) : Using initial value of 'uart_core_tx_fifo_sink_last' since it is never assigned("/home/aj/beanx5/build/beanx5/gateware/minimal_beanx5.v":465)
+WARN  (EX3780) : Using initial value of 'vexriscv' since it is never assigned("/home/aj/beanx5/build/beanx5/gateware/minimal_beanx5.v":510)
+Extracting RAM for identifier 'rom'("/home/aj/beanx5/build/beanx5/gateware/minimal_beanx5.v":1509)
+Extracting RAM for identifier 'sram'("/home/aj/beanx5/build/beanx5/gateware/minimal_beanx5.v":1524)
+Extracting RAM for identifier 'storage'("/home/aj/beanx5/build/beanx5/gateware/minimal_beanx5.v":1544)
+Extracting RAM for identifier 'storage_1'("/home/aj/beanx5/build/beanx5/gateware/minimal_beanx5.v":1566)
+WARN  (EX3791) : Expression size 30 truncated to fit in target size 14("/home/aj/beanx5/build/beanx5/gateware/minimal_beanx5.v":836)
+Compiling module 'VexRiscv'("/home/aj/pythondata-cpu-vexriscv/pythondata_cpu_vexriscv/verilog/VexRiscv.v":7)
+Extracting RAM for identifier 'RegFilePlugin_regFile'("/home/aj/pythondata-cpu-vexriscv/pythondata_cpu_vexriscv/verilog/VexRiscv.v":1323)
+Compiling module 'InstructionCache'("/home/aj/pythondata-cpu-vexriscv/pythondata_cpu_vexriscv/verilog/VexRiscv.v":6021)
+Extracting RAM for identifier 'banks_0'("/home/aj/pythondata-cpu-vexriscv/pythondata_cpu_vexriscv/verilog/VexRiscv.v":6127)
+Extracting RAM for identifier 'ways_0_tags'("/home/aj/pythondata-cpu-vexriscv/pythondata_cpu_vexriscv/verilog/VexRiscv.v":6128)
+Compiling module 'DataCache'("/home/aj/pythondata-cpu-vexriscv/pythondata_cpu_vexriscv/verilog/VexRiscv.v":5167)
+Extracting RAM for identifier 'ways_0_tags'("/home/aj/pythondata-cpu-vexriscv/pythondata_cpu_vexriscv/verilog/VexRiscv.v":5381)
+Extracting RAM for identifier 'ways_0_data_symbol0'("/home/aj/pythondata-cpu-vexriscv/pythondata_cpu_vexriscv/verilog/VexRiscv.v":5382)
+Extracting RAM for identifier 'ways_0_data_symbol1'("/home/aj/pythondata-cpu-vexriscv/pythondata_cpu_vexriscv/verilog/VexRiscv.v":5383)
+Extracting RAM for identifier 'ways_0_data_symbol2'("/home/aj/pythondata-cpu-vexriscv/pythondata_cpu_vexriscv/verilog/VexRiscv.v":5384)
+Extracting RAM for identifier 'ways_0_data_symbol3'("/home/aj/pythondata-cpu-vexriscv/pythondata_cpu_vexriscv/verilog/VexRiscv.v":5385)
+WARN  (EX3858) : System task 'display' is ignored for synthesis("/home/aj/pythondata-cpu-vexriscv/pythondata_cpu_vexriscv/verilog/VexRiscv.v":5993)
+WARN  (EX1998) : Net 'IBusCachedPlugin_cache_io_cpu_fetch_isRemoved' does not have a driver("/home/aj/pythondata-cpu-vexriscv/pythondata_cpu_vexriscv/verilog/VexRiscv.v":67)
+WARN  (EX1998) : Net 'dataCache_1_io_cpu_writeBack_fence_SW' does not have a driver("/home/aj/pythondata-cpu-vexriscv/pythondata_cpu_vexriscv/verilog/VexRiscv.v":81)
+WARN  (EX1998) : Net 'dataCache_1_io_cpu_writeBack_fence_SR' does not have a driver("/home/aj/pythondata-cpu-vexriscv/pythondata_cpu_vexriscv/verilog/VexRiscv.v":82)
+WARN  (EX1998) : Net 'dataCache_1_io_cpu_writeBack_fence_SO' does not have a driver("/home/aj/pythondata-cpu-vexriscv/pythondata_cpu_vexriscv/verilog/VexRiscv.v":83)
+WARN  (EX1998) : Net 'dataCache_1_io_cpu_writeBack_fence_SI' does not have a driver("/home/aj/pythondata-cpu-vexriscv/pythondata_cpu_vexriscv/verilog/VexRiscv.v":84)
+WARN  (EX1998) : Net 'dataCache_1_io_cpu_writeBack_fence_PW' does not have a driver("/home/aj/pythondata-cpu-vexriscv/pythondata_cpu_vexriscv/verilog/VexRiscv.v":85)
+WARN  (EX1998) : Net 'dataCache_1_io_cpu_writeBack_fence_PR' does not have a driver("/home/aj/pythondata-cpu-vexriscv/pythondata_cpu_vexriscv/verilog/VexRiscv.v":86)
+WARN  (EX1998) : Net 'dataCache_1_io_cpu_writeBack_fence_PO' does not have a driver("/home/aj/pythondata-cpu-vexriscv/pythondata_cpu_vexriscv/verilog/VexRiscv.v":87)
+WARN  (EX1998) : Net 'dataCache_1_io_cpu_writeBack_fence_PI' does not have a driver("/home/aj/pythondata-cpu-vexriscv/pythondata_cpu_vexriscv/verilog/VexRiscv.v":88)
+WARN  (EX1998) : Net 'dataCache_1_io_cpu_writeBack_fence_FM[3]' does not have a driver("/home/aj/pythondata-cpu-vexriscv/pythondata_cpu_vexriscv/verilog/VexRiscv.v":89)
+WARN  (EX1998) : Net 'IBusCachedPlugin_mmuBus_rsp_bypassTranslation' does not have a driver("/home/aj/pythondata-cpu-vexriscv/pythondata_cpu_vexriscv/verilog/VexRiscv.v":604)
+WARN  (EX1998) : Net 'dBus_rsp_payload_last' does not have a driver("/home/aj/pythondata-cpu-vexriscv/pythondata_cpu_vexriscv/verilog/VexRiscv.v":617)
+WARN  (EX1998) : Net 'DBusCachedPlugin_mmuBus_rsp_bypassTranslation' does not have a driver("/home/aj/pythondata-cpu-vexriscv/pythondata_cpu_vexriscv/verilog/VexRiscv.v":632)
+WARN  (EX1998) : Net 'CsrPlugin_mtvec_mode[1]' does not have a driver("/home/aj/pythondata-cpu-vexriscv/pythondata_cpu_vexriscv/verilog/VexRiscv.v":930)
+NOTE  (EX0101) : Current top module is "minimal_beanx5"
+WARN  (EX0211) : The output port "io_cpu_writeBack_exclusiveOk" of module "DataCache" has no driver, assigning undriven bits to Z, simulation mismatch possible("/home/aj/pythondata-cpu-vexriscv/pythondata_cpu_vexriscv/verilog/VexRiscv.v":5210)
+WARN  (EX0211) : The output port "io_cpu_writesPending" of module "DataCache" has no driver, assigning undriven bits to Z, simulation mismatch possible("/home/aj/pythondata-cpu-vexriscv/pythondata_cpu_vexriscv/verilog/VexRiscv.v":5216)
+[5%] Running netlist conversion ...
+Running device independent optimization ...
+[10%] Optimizing Phase 0 completed
+[15%] Optimizing Phase 1 completed
+[25%] Optimizing Phase 2 completed
+Running inference ...
+[30%] Inferring Phase 0 completed
+[40%] Inferring Phase 1 completed
+[50%] Inferring Phase 2 completed
+[55%] Inferring Phase 3 completed
+Running technical mapping ...
+[60%] Tech-Mapping Phase 0 completed
+[65%] Tech-Mapping Phase 1 completed
+[75%] Tech-Mapping Phase 2 completed
+[80%] Tech-Mapping Phase 3 completed
+[90%] Tech-Mapping Phase 4 completed
+[95%] Generate netlist file "/home/aj/beanx5/build/beanx5/gateware/impl/gwsynthesis/project.vg" completed
+[100%] Generate report file "/home/aj/beanx5/build/beanx5/gateware/impl/gwsynthesis/project_syn.rpt.html" completed
+GowinSynthesis finish
+Reading netlist file: "/home/aj/beanx5/build/beanx5/gateware/impl/gwsynthesis/project.vg"
+Parsing netlist file "/home/aj/beanx5/build/beanx5/gateware/impl/gwsynthesis/project.vg" completed
+Processing netlist completed
+Reading constraint file: "/home/aj/beanx5/build/beanx5/gateware/minimal_beanx5.cst"
+Physical Constraint parsed completed
+Running placement......
+[10%] Placement Phase 0 completed
+[20%] Placement Phase 1 completed
+[30%] Placement Phase 2 completed
+WARN  (TA1132) :  'clk' was determined to be a clock but was not created.
+[50%] Placement Phase 3 completed
+Running routing......
+[60%] Routing Phase 0 completed
+[70%] Routing Phase 1 completed
+[80%] Routing Phase 2 completed
+[90%] Routing Phase 3 completed
+Running timing analysis......
+[95%] Timing analysis completed
+Placement and routing completed
+Bitstream generation in progress......
+Bitstream generation completed
+Running power analysis......
+[100%] Power analysis completed
+Generate file "/home/aj/beanx5/build/beanx5/gateware/impl/pnr/project.power.html" completed
+Generate file "/home/aj/beanx5/build/beanx5/gateware/impl/pnr/project.pin.html" completed
+Generate file "/home/aj/beanx5/build/beanx5/gateware/impl/pnr/project.rpt.html" completed
+Generate file "/home/aj/beanx5/build/beanx5/gateware/impl/pnr/project.rpt.txt" completed
+Generate file "/home/aj/beanx5/build/beanx5/gateware/impl/pnr/project.tr.html" completed
+Generate file "/home/aj/beanx5/build/beanx5/gateware/impl/pnr/project.tr" completed
+Wed Oct 21 21:58:39 2026
+

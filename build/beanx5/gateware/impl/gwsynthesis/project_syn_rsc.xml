@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="minimal_beanx5" Register="707" Alu="60" Lut="1267" Bsram="32" T_Register="1952(707)" T_Alu="434(60)" T_Lut="3647(1267)" T_MULTALU27X18="4(0)" T_Bsram="42(32)">
+ <SubModule name="VexRiscv" Register="1112" Alu="309" Lut="2225" MULTALU27X18="4" Bsram="2" T_Register="1245(1112)" T_Alu="374(309)" T_Lut="2380(2225)" T_MULTALU27X18="4(4)" T_Bsram="10(2)">
+  <SubModule name="IBusCachedPlugin_cache" Register="75" Alu="26" Lut="47" Bsram="3" T_Register="75(75)" T_Alu="26(26)" T_Lut="47(47)" T_Bsram="3(3)"/>
+  <SubModule name="dataCache_1" Register="58" Alu="39" Lut="108" Bsram="5" T_Register="58(58)" T_Alu="39(39)" T_Lut="108(108)" T_Bsram="5(5)"/>
+ </SubModule>
+</Module>
