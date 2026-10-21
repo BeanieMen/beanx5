@@ -1,0 +1,129 @@
+Number,Name,Electrical Type,Graphic Style,Orientation,Number Text Size,Name Text Size,Length,X Position,Y Position,Visible,Unit,Body Style
+B1,IOB10A/D03/SSPI_CS_N,Bidirectional,Line,Right,50,50,100,0,0,True,3,0
+A3,IOB10B/D04/SI/SSIO,Bidirectional,Line,Right,50,50,100,0,0,True,3,0
+E2,IOB12A/GCLKT_10B/D07/SSPI_WPN/SSI2/LPLL1_T_IN1,Bidirectional,Line,Right,50,50,100,0,0,True,3,0
+E1,IOB12B/GCLKC_10B/RDWR_B/LPLL1_C_IN1,Bidirectional,Line,Right,50,50,100,0,0,True,3,0
+C1,IOB14A/SSPI_CLK,Bidirectional,Line,Right,50,50,100,0,0,True,3,0
+D1,IOB14B/CLKHOLD_N/SSI3,Bidirectional,Line,Right,50,50,100,0,0,True,3,0
+D8,IOB1A/RECONFIG_N,Bidirectional,Line,Right,50,50,100,0,0,True,2,0
+A1,IOB24A,Bidirectional,Line,Right,50,50,100,0,0,True,3,0
+F2,IOB26A/GCLKT_9B,Bidirectional,Line,Right,50,50,100,0,0,True,3,0
+F1,IOB26B/GCLKC_9B,Bidirectional,Line,Right,50,50,100,0,0,True,3,0
+E8,IOB37A/READY,Bidirectional,Line,Right,50,50,100,0,0,True,2,0
+E6,IOB37B/MCS_N/CSO_B,Bidirectional,Line,Right,50,50,100,0,0,True,2,0
+B2,IOB4A/D08/LPLL1_T_FB0,Bidirectional,Line,Right,50,50,100,0,0,True,3,0
+C2,IOB4B/D09/LPLL1_C_FB0,Bidirectional,Line,Right,50,50,100,0,0,True,3,0
+GND_MODE1,IOB52A/MODE1,Input,Line,Right,50,50,100,0,0,True,2,0
+D5,IOB54A/GCLKT_11B/D01/MI2/BPLL_T_FB1,Bidirectional,Line,Right,50,50,100,0,0,True,3,0
+E4,IOB54B/GCLKC_11B/D02/MI3/BPLL_C_FB1,Bidirectional,Line,Right,50,50,100,0,0,True,3,0
+B3,IOB56A,Bidirectional,Line,Right,50,50,100,0,0,True,3,0
+C3,IOB56B,Bidirectional,Line,Right,50,50,100,0,0,True,3,0
+E5,IOB58A/D00/MISO/MI1/DIN,Bidirectional,Line,Right,50,50,100,0,0,True,3,0
+D6,IOB58B/MOSI/CSI_B/MI0,Bidirectional,Line,Right,50,50,100,0,0,True,3,0
+E3,IOB60A,Bidirectional,Line,Right,50,50,100,0,0,True,3,0
+E7,IOB62A/CCLK,Bidirectional,Line,Right,50,50,100,0,0,True,2,0
+VCCIO_MODE0,IOB62B/MODE0,Input,Line,Right,50,50,100,0,0,True,2,0
+D7,IOB64A/DONE,Bidirectional,Line,Right,50,50,100,0,0,True,2,0
+G4,IOB89A/GCLKT_7/BPLL_T_IN0,Bidirectional,Line,Right,50,50,100,0,0,True,4,0
+H4,IOB89B/GCLKC_7/BPLL_C_IN0,Bidirectional,Line,Right,50,50,100,0,0,True,4,0
+A2,IOB8A/D05/SO/SSI1,Bidirectional,Line,Right,50,50,100,0,0,True,3,0
+H1,IOB91A/GCLKT_6A,Bidirectional,Line,Right,50,50,100,0,0,True,4,0
+H2,IOB91B/GCLKC_6A,Bidirectional,Line,Right,50,50,100,0,0,True,4,0
+B11,IOL12A,Bidirectional,Line,Right,50,50,100,0,0,True,5,0
+B10,IOL12B,Bidirectional,Line,Right,50,50,100,0,0,True,5,0
+A11,IOL14A/LPLL1_T_IN0,Bidirectional,Line,Right,50,50,100,0,0,True,5,0
+A10,IOL14B/LPLL1_C_IN0,Bidirectional,Line,Right,50,50,100,0,0,True,5,0
+E11,IOL3A/GCLKT_14/LPLL0_T_IN2/LPLL0_T_FB0,Bidirectional,Line,Right,50,50,100,0,0,True,5,0
+E10,IOL3B/GCLKC_14/LPLL0_C_IN2/LPLL0_C_FB0,Bidirectional,Line,Right,50,50,100,0,0,True,5,0
+C11,IOL5A/GCLKT_13/LPLL0_T_IN1/LPLL0_T_FB1,Bidirectional,Line,Right,50,50,100,0,0,True,5,0
+C10,IOL5B/GCLKC_13/LPLL0_C_IN1/LPLL0_C_FB1,Bidirectional,Line,Right,50,50,100,0,0,True,5,0
+D11,IOL9A,Bidirectional,Line,Right,50,50,100,0,0,True,5,0
+D10,IOL9B,Bidirectional,Line,Right,50,50,100,0,0,True,5,0
+L2,IOR18A,Bidirectional,Line,Right,50,50,100,0,0,True,4,0
+L1,IOR18B,Bidirectional,Line,Right,50,50,100,0,0,True,4,0
+C1,IOR1A/TCK,Input,Line,Right,50,50,100,0,0,True,2,0
+A3,IOR1B/TDI,Input,Line,Right,50,50,100,0,0,True,2,0
+K1,IOR20A,Bidirectional,Line,Right,50,50,100,0,0,True,4,0
+K2,IOR20B,Bidirectional,Line,Right,50,50,100,0,0,True,4,0
+J4,IOR22A,Bidirectional,Line,Right,50,50,100,0,0,True,4,0
+K4,IOR22B,Bidirectional,Line,Right,50,50,100,0,0,True,4,0
+G2,IOR24A,Bidirectional,Line,Right,50,50,100,0,0,True,4,0
+G1,IOR24B,Bidirectional,Line,Right,50,50,100,0,0,True,4,0
+L4,IOR31A/GCLKT_4/RPLL1_T_IN0/RPLL1_T_FB1,Bidirectional,Line,Right,50,50,100,0,0,True,4,0
+L3,IOR31B/GCLKC_4/RPLL1_C_IN0/RPLL1_C_FB1,Bidirectional,Line,Right,50,50,100,0,0,True,4,0
+J1,IOR33A/GCLKT_5/RPLL1_T_IN1/RPLL1_T_FB0,Bidirectional,Line,Right,50,50,100,0,0,True,4,0
+J2,IOR33B/GCLKC_5/RPLL1_C_IN1/RPLL1_C_FB0,Bidirectional,Line,Right,50,50,100,0,0,True,4,0
+B1,IOR3A/TMS,Input,Line,Right,50,50,100,0,0,True,2,0
+A2,IOR3B/TDO,Output,Line,Right,50,50,100,0,0,True,2,0
+K11,IOT11A,Bidirectional,Line,Right,50,50,100,0,0,True,5,0
+L11,IOT11B,Bidirectional,Line,Right,50,50,100,0,0,True,5,0
+L10,IOT15A,Bidirectional,Line,Right,50,50,100,0,0,True,5,0
+K10,IOT15B,Bidirectional,Line,Right,50,50,100,0,0,True,5,0
+L7,IOT19A,Bidirectional,Line,Right,50,50,100,0,0,True,5,0
+L8,IOT19B,Bidirectional,Line,Right,50,50,100,0,0,True,5,0
+J11,IOT1A/GCLKT_15/LPLL0_T_IN0,Bidirectional,Line,Right,50,50,100,0,0,True,5,0
+J10,IOT1B/GCLKC_15/LPLL0_C_IN0,Bidirectional,Line,Right,50,50,100,0,0,True,5,0
+K7,IOT21A,Bidirectional,Line,Right,50,50,100,0,0,True,5,0
+J7,IOT21B,Bidirectional,Line,Right,50,50,100,0,0,True,5,0
+L6,IOT23A,Bidirectional,Line,Right,50,50,100,0,0,True,5,0
+K6,IOT23B,Bidirectional,Line,Right,50,50,100,0,0,True,5,0
+GND_PUDC,IOT29A/PUDC_B,Input,Line,Right,50,50,100,0,0,True,2,0
+L9,IOT31A,Bidirectional,Line,Right,50,50,100,0,0,True,5,0
+K9,IOT31B,Bidirectional,Line,Right,50,50,100,0,0,True,5,0
+H11,IOT3A/GCLKT_16,Bidirectional,Line,Right,50,50,100,0,0,True,5,0
+H10,IOT3B/GCLKC_16,Bidirectional,Line,Right,50,50,100,0,0,True,5,0
+J8,IOT56A/GCLKT_0/TPLL_T_IN1/TPLL0_T_FB1,Bidirectional,Line,Right,50,50,100,0,0,True,5,0
+K8,IOT56B/GCLKC_0/TPLL_C_IN1/TPLL_C_FB1,Bidirectional,Line,Right,50,50,100,0,0,True,5,0
+F7,IOT58A/GCLKT_1/TPLL_T_IN2/TPLL_T_FB0,Bidirectional,Line,Right,50,50,100,0,0,True,5,0
+F6,IOT58B/GCLKC_1/TPLL_C_IN2/TPLL_C_FB0,Bidirectional,Line,Right,50,50,100,0,0,True,5,0
+H5,IOT61A/GCLKT_2/TPLL_T_IN0,Bidirectional,Line,Right,50,50,100,0,0,True,5,0
+J5,IOT61B/GCLKC_2/TPLL_C_IN0,Bidirectional,Line,Right,50,50,100,0,0,True,5,0
+L5,IOT63A/GCLKT_3/RPLL0_T_IN0,Bidirectional,Line,Right,50,50,100,0,0,True,5,0
+K5,IOT63B/GCLKC_3/RPLL0_C_IN0,Bidirectional,Line,Right,50,50,100,0,0,True,5,0
+H8,IOT66A,Bidirectional,Line,Right,50,50,100,0,0,True,5,0
+H7,IOT66B,Bidirectional,Line,Right,50,50,100,0,0,True,5,0
+G7,IOT68A,Bidirectional,Line,Right,50,50,100,0,0,True,5,0
+G8,IOT68B,Bidirectional,Line,Right,50,50,100,0,0,True,5,0
+F5,IOT72A,Bidirectional,Line,Right,50,50,100,0,0,True,5,0
+G5,IOT72B,Bidirectional,Line,Right,50,50,100,0,0,True,5,0
+G11,IOT7A,Bidirectional,Line,Right,50,50,100,0,0,True,5,0
+G10,IOT7B,Bidirectional,Line,Right,50,50,100,0,0,True,5,0
+B7,M0_CKN,Bidirectional,Line,Right,50,50,100,0,0,True,2,0
+A7,M0_CKP,Bidirectional,Line,Right,50,50,100,0,0,True,2,0
+B9,M0_D0N,Bidirectional,Line,Right,50,50,100,0,0,True,2,0
+A9,M0_D0P,Bidirectional,Line,Right,50,50,100,0,0,True,2,0
+B8,M0_D1N,Bidirectional,Line,Right,50,50,100,0,0,True,2,0
+A8,M0_D1P,Bidirectional,Line,Right,50,50,100,0,0,True,2,0
+B6,M0_D2N,Bidirectional,Line,Right,50,50,100,0,0,True,2,0
+A6,M0_D2P,Bidirectional,Line,Right,50,50,100,0,0,True,2,0
+B5,M0_D3N,Bidirectional,Line,Right,50,50,100,0,0,True,2,0
+A5,M0_D3P,Bidirectional,Line,Right,50,50,100,0,0,True,2,0
+K3,VDD12M,Power Input,Line,Right,50,50,100,0,0,True,1,0
+C8,VDDAM,Power Input,Line,Right,50,50,100,0,0,True,1,0
+D9,VDDDM,Power Input,Line,Right,50,50,100,0,0,True,1,0
+H3,VCCX_VDDXM,Power Input,Line,Right,50,50,100,0,0,True,1,0
+G6,VCCX_VDDXM,Power Input,Line,Right,50,50,100,0,0,True,1,0
+G3,VCCX_VDDXM,Power Input,Line,Right,50,50,100,0,0,True,1,0
+G9,VCCX_VDDXM,Power Input,Line,Right,50,50,100,0,0,True,1,0
+C4,NC,Free,Line,Right,50,50,100,0,0,True,1,0
+C6,NC,Free,Line,Right,50,50,100,0,0,True,1,0
+F8,VCC,Power Input,Line,Right,50,50,100,0,0,True,1,0
+F4,VCC,Power Input,Line,Right,50,50,100,0,0,True,1,0
+E9,VCC,Power Input,Line,Right,50,50,100,0,0,True,1,0
+J6,VCCLDO,Power Input,Line,Right,50,50,100,0,0,True,1,0
+D4,VCCIO4,Power Input,Line,Right,50,50,100,0,0,True,1,0
+J9,VCCIO0_1,Power Input,Line,Right,50,50,100,0,0,True,1,0
+D2,VCCIO5_10,Power Input,Line,Right,50,50,100,0,0,True,1,0
+A4,VCCIO2_3,Power Input,Line,Right,50,50,100,0,0,True,1,0
+F10,VCCIO6_7,Power Input,Line,Right,50,50,100,0,0,True,1,0
+D3,VEFUSE,Power Input,Line,Right,50,50,100,0,0,True,1,0
+B4,VSS,Power Input,Line,Right,50,50,100,0,0,True,1,0
+C5,VSS,Power Input,Line,Right,50,50,100,0,0,True,1,0
+C7,VSS,Power Input,Line,Right,50,50,100,0,0,True,1,0
+C9,VSS,Power Input,Line,Right,50,50,100,0,0,True,1,0
+F11,VSS,Power Input,Line,Right,50,50,100,0,0,True,1,0
+F3,VSS,Power Input,Line,Right,50,50,100,0,0,True,1,0
+F9,VSS,Power Input,Line,Right,50,50,100,0,0,True,1,0
+H6,VSS,Power Input,Line,Right,50,50,100,0,0,True,1,0
+H9,VSS,Power Input,Line,Right,50,50,100,0,0,True,1,0
+J3,VSS,Power Input,Line,Right,50,50,100,0,0,True,1,0
