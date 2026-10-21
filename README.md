@@ -2,13 +2,13 @@
 
 an fpga dev board built around the Gowin Arora V GW5A-25 with an an onboard RISC-V SoC, HDMI, and USB-C
 
----
+
 
 ## What is this?
 
 beanx5 is a minimalist FPGA dev board powered by the Gowin GW5A-LV25MG121 (23K LUTs). I used Sipeed Tang Primer 25K as a base for components and because the parts work togther as evidenced by it. i didnt like the modular system so i wanted a single board with all of em in under 100$ (hopefully)
 
----
+
 
 ## Features
 
@@ -20,7 +20,7 @@ beanx5 is a minimalist FPGA dev board powered by the Gowin GW5A-LV25MG121 (23K L
 - **USB-C Interface**: Power delivery, UART serial console, and JTAG debugging via a single USB-C cable.
 - **MicroSD Card Storage**: Full push-pull slot for loading bitstreams, boot ROMs, or data logging over SPI/SDIO.
 
----
+
 
 ## Repository Tour
 
@@ -36,7 +36,7 @@ beanx5/
 └── bom.csv            # SMT parts list + JLCPCB assembly cost estimates
 ```
 
----
+
 
 
 ### Prerequisites
@@ -62,7 +62,7 @@ The resulting bitstream will be located at:
 build/beanx5/gateware/minimal_beanx5.fs
 ```
 
----
+
 
 ## scripts for convenience
 
@@ -74,7 +74,7 @@ python3 scripts/csv_to_kicad_sym.py \
   --output hardware/pcb/symbol-table.kicad_sym
 ```
 
----
+
 
 ## Built With
 
