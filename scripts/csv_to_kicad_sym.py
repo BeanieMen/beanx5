@@ -1,26 +1,9 @@
-#!/usr/bin/env python3
-"""
-csv_to_kicad_sym.py
-
-A general-purpose tool to generate or update KiCad (.kicad_sym) symbols from pinout CSV files.
-
-Supported CSV column headers (case-insensitive):
-  - Number (or Pin, Pin Number)
-  - Name (or Pin Name)
-  - Electrical Type (or Type)
-  - Unit (optional, defaults to 1)
-
-Usage:
-  python3 scripts/csv_to_kicad_sym.py --csv <path_to_csv> --symbol <symbol_name> --output <path_to_kicad_sym>
-"""
-
 import argparse
 import csv
 import sys
 from pathlib import Path
 from typing import Dict, List
 
-# KiCad electrical type mapping
 TYPE_MAP = {
     'input': 'input',
     'output': 'output',
@@ -61,7 +44,6 @@ def generate_symbol_sexp(
     pin_length: float = 5.08,
     box_half_width: float = 40.64,
 ) -> str:
-    # Organize pins by unit
     units: Dict[str, List[Dict[str, str]]] = {}
     for p in pins:
         unit = str(p.get('unit', '1')).strip() or '1'
