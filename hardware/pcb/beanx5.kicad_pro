@@ -430,13 +430,29 @@
         "uuid": "af63fa6e-973d-4760-8f53-35b43d2ef866"
       }
     ],
-    "used_designators": "",
+    "used_designators": "#PWR1-3,C1-3,J1,L1,R1-2,U1",
     "variants": []
   },
   "sheets": [
     [
       "af63fa6e-973d-4760-8f53-35b43d2ef866",
       "beanx5"
+    ],
+    [
+      "859f5aff-bcd5-4fba-93b3-4ce3a57d0421",
+      "01_Power"
+    ],
+    [
+      "9925ae38-68a8-4578-8eba-8435ad978b5f",
+      "02_FPGA_Core"
+    ],
+    [
+      "79e0fd38-7692-46d5-aa80-8eb471c348ac",
+      "03_Debugger_BL616"
+    ],
+    [
+      "3292fef4-62db-49f3-ac69-07071b7fa5ed",
+      "04_Peripherals"
     ]
   ],
   "text_variables": {},
