@@ -1,15 +1,12 @@
-# KiCad lock and temporary files
 *.lck
 *.bak
 _autosave-*
 *.kicad_prl
-
-# Antigravity & Agent artifacts
+hardware/pcb/.history/
 .antigravity/
 .gemini/
 .agents/
 
-# Python & Environment
 __pycache__/
 *.py[cod]
 *$py.class
@@ -17,7 +14,6 @@ __pycache__/
 venv/
 env/
 
-# OS and Editor files
 .DS_Store
 Thumbs.db
 *.swp
