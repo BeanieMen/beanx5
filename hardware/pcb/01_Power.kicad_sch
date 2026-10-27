@@ -3361,16 +3361,6 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 72.39) (xy 154.94 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8b94bb9d-1006-4899-9700-f17bb0e5f27b")
-	)
-	(wire
-		(pts
 			(xy 168.91 72.39) (xy 171.45 72.39)
 		)
 		(stroke
@@ -5031,7 +5021,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "22yF"
+		(property "Value" "22pF"
 			(at 200.66 72.3899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6192,7 +6182,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22yF"
+		(property "Value" "22uF"
 			(at 184.15 81.2799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6929,7 +6919,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22yF"
+		(property "Value" "22uF"
 			(at 175.26 81.2799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7143,6 +7133,89 @@
 			(project "beanx5"
 				(path "/af63fa6e-973d-4760-8f53-35b43d2ef866/859f5aff-bcd5-4fba-93b3-4ce3a57d0421"
 					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 115.57 153.67) (xy 115.57 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1883920-4e12-4c28-9f15-8d264e120001")
+	)
+	(junction (at 115.57 160.02) (diameter 0) (color 0 0 0 0) (uuid "f1883920-4e12-4c28-9f15-8d264e120002"))
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 182.88 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f1883920-4e12-4c28-9f15-8d264e120003")
+		(property "Reference" "#FLG04"
+			(at 182.88 66.675 0)
+			(hide yes)
+			(show_name no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 182.88 68.58 0)
+			(show_name no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 182.88 64.77 0)
+			(hide yes)
+			(show_name no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 182.88 64.77 0)
+			(hide yes)
+			(show_name no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 182.88 64.77 0)
+			(hide yes)
+			(show_name no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f1883920-4e12-4c28-9f15-8d264e120004")
+		)
+		(instances
+			(project "beanx5"
+				(path "/af63fa6e-973d-4760-8f53-35b43d2ef866/859f5aff-bcd5-4fba-93b3-4ce3a57d0421"
+					(reference "#FLG04")
 					(unit 1)
 				)
 			)
