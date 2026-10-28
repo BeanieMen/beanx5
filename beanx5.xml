@@ -1,0 +1,1885 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/home/aj/beanx5/hardware/pcb/beanx5.kicad_sch</source>
+    <date>2026-10-28T22:40:02</date>
+    <tool>Eeschema 10.0.7</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>beanx5.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/01_Power/" tstamps="/859f5aff-bcd5-4fba-93b3-4ce3a57d0421/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>01_Power.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/02_FPGA_Core/" tstamps="/9925ae38-68a8-4578-8eba-8435ad978b5f/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>02_FPGA_Core.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/03_Debugger_BL616/" tstamps="/79e0fd38-7692-46d5-aa80-8eb471c348ac/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>03_Debugger_BL616.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="5" name="/04_Peripherals/" tstamps="/3292fef4-62db-49f3-ac69-07071b7fa5ed/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>04_Peripherals.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="01_Power"/>
+      <property name="Sheetfile" value="01_Power.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/01_Power/" tstamps="/859f5aff-bcd5-4fba-93b3-4ce3a57d0421/"/>
+      <tstamps>0370337d-a8d2-444d-9197-997f0adbe898</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C2">
+      <value>22uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="01_Power"/>
+      <property name="Sheetfile" value="01_Power.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/01_Power/" tstamps="/859f5aff-bcd5-4fba-93b3-4ce3a57d0421/"/>
+      <tstamps>fd685fd4-2e5f-4b21-add5-544c44bbe10c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C3">
+      <value>22uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="01_Power"/>
+      <property name="Sheetfile" value="01_Power.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/01_Power/" tstamps="/859f5aff-bcd5-4fba-93b3-4ce3a57d0421/"/>
+      <tstamps>1c09e7c7-e8b4-4954-b44b-6e0f08d59d97</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C4">
+      <value>22uF</value>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="01_Power"/>
+      <property name="Sheetfile" value="01_Power.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/01_Power/" tstamps="/859f5aff-bcd5-4fba-93b3-4ce3a57d0421/"/>
+      <tstamps>f83df84b-306b-4eb1-a8ba-56d849028087</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C5">
+      <value>22pF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="01_Power"/>
+      <property name="Sheetfile" value="01_Power.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/01_Power/" tstamps="/859f5aff-bcd5-4fba-93b3-4ce3a57d0421/"/>
+      <tstamps>2781be08-8220-473c-bd71-5b650c4e5987</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C6">
+      <value>10uF</value>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="01_Power"/>
+      <property name="Sheetfile" value="01_Power.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/01_Power/" tstamps="/859f5aff-bcd5-4fba-93b3-4ce3a57d0421/"/>
+      <tstamps>494c155a-8243-423e-92c5-1c8a02066224</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C7">
+      <value>22uF</value>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="01_Power"/>
+      <property name="Sheetfile" value="01_Power.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/01_Power/" tstamps="/859f5aff-bcd5-4fba-93b3-4ce3a57d0421/"/>
+      <tstamps>9427cd19-339c-4e98-8bab-3eeb4145bb8e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C8">
+      <value>22pF</value>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="01_Power"/>
+      <property name="Sheetfile" value="01_Power.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/01_Power/" tstamps="/859f5aff-bcd5-4fba-93b3-4ce3a57d0421/"/>
+      <tstamps>6001d233-7c51-4741-bfc7-8f22f2f692fb</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C10">
+      <value>1uF</value>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="01_Power"/>
+      <property name="Sheetfile" value="01_Power.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/01_Power/" tstamps="/859f5aff-bcd5-4fba-93b3-4ce3a57d0421/"/>
+      <tstamps>6fa7feef-9971-4ed4-99cd-6e78fd0b4f3f</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C11">
+      <value>2.2uF</value>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="01_Power"/>
+      <property name="Sheetfile" value="01_Power.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/01_Power/" tstamps="/859f5aff-bcd5-4fba-93b3-4ce3a57d0421/"/>
+      <tstamps>60b8bf8a-3ddd-4c91-b5ff-676535fa7bab</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C12">
+      <value>1uF</value>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="01_Power"/>
+      <property name="Sheetfile" value="01_Power.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/01_Power/" tstamps="/859f5aff-bcd5-4fba-93b3-4ce3a57d0421/"/>
+      <tstamps>3174f9ea-a5f2-40cf-b5e0-23173c95fc66</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C13">
+      <value>2.2uF</value>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="01_Power"/>
+      <property name="Sheetfile" value="01_Power.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/01_Power/" tstamps="/859f5aff-bcd5-4fba-93b3-4ce3a57d0421/"/>
+      <tstamps>aca2b9a5-9d60-4498-b615-a3e86fc78a75</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J1">
+      <value>USB_C_Receptacle_USB2.0_16P</value>
+      <footprint>Connector_USB:USB_C_Receptacle_HCTL_HC-TYPE-C-16P-01A</footprint>
+      <datasheet>https://www.usb.org/sites/default/files/documents/usb_type-c.zip</datasheet>
+      <description>USB 2.0-only 16P Type-C Receptacle connector</description>
+      <fields>
+        <field name="Footprint">Connector_USB:USB_C_Receptacle_HCTL_HC-TYPE-C-16P-01A</field>
+        <field name="Datasheet">https://www.usb.org/sites/default/files/documents/usb_type-c.zip</field>
+        <field name="Description">USB 2.0-only 16P Type-C Receptacle connector</field>
+      </fields>
+      <libsource lib="Connector" part="USB_C_Receptacle_USB2.0_16P" description="USB 2.0-only 16P Type-C Receptacle connector"/>
+      <property name="Sheetname" value="01_Power"/>
+      <property name="Sheetfile" value="01_Power.kicad_sch"/>
+      <property name="ki_keywords" value="usb universal serial bus type-C USB2.0"/>
+      <property name="ki_fp_filters" value="USB*C*Receptacle*"/>
+      <sheetpath names="/01_Power/" tstamps="/859f5aff-bcd5-4fba-93b3-4ce3a57d0421/"/>
+      <tstamps>6df49f84-51b5-455b-b843-b2af85719da0</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="SH"/>
+            <pin num="B1"/>
+            <pin num="B12"/>
+            <pin num="A1"/>
+            <pin num="A12"/>
+            <pin num="A9"/>
+            <pin num="B4"/>
+            <pin num="B9"/>
+            <pin num="A4"/>
+            <pin num="A5"/>
+            <pin num="B5"/>
+            <pin num="A7"/>
+            <pin num="B7"/>
+            <pin num="A6"/>
+            <pin num="B6"/>
+            <pin num="A8"/>
+            <pin num="B8"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="L1">
+      <value>2.2uH</value>
+      <description>Inductor</description>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Inductor</field>
+      </fields>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <property name="Sheetname" value="01_Power"/>
+      <property name="Sheetfile" value="01_Power.kicad_sch"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <property name="ki_fp_filters" value="Choke_* *Coil* Inductor_* L_*"/>
+      <sheetpath names="/01_Power/" tstamps="/859f5aff-bcd5-4fba-93b3-4ce3a57d0421/"/>
+      <tstamps>11e30300-6180-44e6-97b6-9b3819007c6e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="L2">
+      <value>2.2uH</value>
+      <footprint>Inductor_SMD:L_0805_2012Metric</footprint>
+      <description>Inductor</description>
+      <fields>
+        <field name="Footprint">Inductor_SMD:L_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Inductor</field>
+      </fields>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <property name="Sheetname" value="01_Power"/>
+      <property name="Sheetfile" value="01_Power.kicad_sch"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <property name="ki_fp_filters" value="Choke_* *Coil* Inductor_* L_*"/>
+      <sheetpath names="/01_Power/" tstamps="/859f5aff-bcd5-4fba-93b3-4ce3a57d0421/"/>
+      <tstamps>9162a8e5-86e2-4068-ae52-9d6e5a0d1419</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R1">
+      <value>5.1k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="01_Power"/>
+      <property name="Sheetfile" value="01_Power.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/01_Power/" tstamps="/859f5aff-bcd5-4fba-93b3-4ce3a57d0421/"/>
+      <tstamps>8eafc243-35bb-429f-875e-83ca9c8f647d</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R2">
+      <value>5.1k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="01_Power"/>
+      <property name="Sheetfile" value="01_Power.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/01_Power/" tstamps="/859f5aff-bcd5-4fba-93b3-4ce3a57d0421/"/>
+      <tstamps>a5ff63ac-4d11-4eaa-b648-0e50309768a6</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R3">
+      <value>453k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="01_Power"/>
+      <property name="Sheetfile" value="01_Power.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/01_Power/" tstamps="/859f5aff-bcd5-4fba-93b3-4ce3a57d0421/"/>
+      <tstamps>474826a4-f3e5-4c73-92fa-8d7f7df0c8d2</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R4">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="01_Power"/>
+      <property name="Sheetfile" value="01_Power.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/01_Power/" tstamps="/859f5aff-bcd5-4fba-93b3-4ce3a57d0421/"/>
+      <tstamps>7e089b41-867e-4ef2-9eae-b17140532b8f</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R5">
+      <value>100k</value>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="01_Power"/>
+      <property name="Sheetfile" value="01_Power.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/01_Power/" tstamps="/859f5aff-bcd5-4fba-93b3-4ce3a57d0421/"/>
+      <tstamps>71debea8-7685-42ca-80ca-b76480dc70dd</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R6">
+      <value>100k</value>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="01_Power"/>
+      <property name="Sheetfile" value="01_Power.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/01_Power/" tstamps="/859f5aff-bcd5-4fba-93b3-4ce3a57d0421/"/>
+      <tstamps>3c39ae39-ce60-4221-a35b-f57585cb63d3</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U1">
+      <value>TLV62569DBV</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/tlv62569.pdf</datasheet>
+      <description>High Efficiency Synchronous Buck Converter, Adjustable Output 0.6V-5.5V, 2A, SOT-23-5</description>
+      <fields>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/tlv62569.pdf</field>
+        <field name="Description">High Efficiency Synchronous Buck Converter, Adjustable Output 0.6V-5.5V, 2A, SOT-23-5</field>
+      </fields>
+      <libsource lib="Regulator_Switching" part="TLV62569DBV" description="High Efficiency Synchronous Buck Converter, Adjustable Output 0.6V-5.5V, 2A, SOT-23-5"/>
+      <property name="Sheetname" value="01_Power"/>
+      <property name="Sheetfile" value="01_Power.kicad_sch"/>
+      <property name="ki_keywords" value="Step-Down Buck DC-DC Regulator Adjustable"/>
+      <property name="ki_fp_filters" value="SOT?23*"/>
+      <sheetpath names="/01_Power/" tstamps="/859f5aff-bcd5-4fba-93b3-4ce3a57d0421/"/>
+      <tstamps>edc25341-dde4-48a9-8645-09d0b1691494</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="4"/>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="5"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U2">
+      <value>TLV73325PDBV</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/tlv733p.pdf</datasheet>
+      <description>300mA Capacitor-Free Low Dropout Voltage Regulator, Fixed Output 2.5V, SOT-23-5</description>
+      <fields>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/tlv733p.pdf</field>
+        <field name="Description">300mA Capacitor-Free Low Dropout Voltage Regulator, Fixed Output 2.5V, SOT-23-5</field>
+      </fields>
+      <libsource lib="Regulator_Linear" part="TLV73325PDBV" description="300mA Capacitor-Free Low Dropout Voltage Regulator, Fixed Output 2.5V, SOT-23-5"/>
+      <property name="Sheetname" value="01_Power"/>
+      <property name="Sheetfile" value="01_Power.kicad_sch"/>
+      <property name="ki_keywords" value="300mA LDO Regulator Fixed Positive Capacitor-Free"/>
+      <property name="ki_fp_filters" value="SOT?23*"/>
+      <sheetpath names="/01_Power/" tstamps="/859f5aff-bcd5-4fba-93b3-4ce3a57d0421/"/>
+      <tstamps>08c12e75-721c-44b9-9b0b-f25e102d6e3a</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="3"/>
+            <pin num="2"/>
+            <pin num="4"/>
+            <pin num="5"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U3">
+      <value>TLV73318PDBV</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/tlv733p.pdf</datasheet>
+      <description>300mA Capacitor-Free Low Dropout Voltage Regulator, Fixed Output 1.8V, SOT-23-5</description>
+      <fields>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/tlv733p.pdf</field>
+        <field name="Description">300mA Capacitor-Free Low Dropout Voltage Regulator, Fixed Output 1.8V, SOT-23-5</field>
+      </fields>
+      <libsource lib="Regulator_Linear" part="TLV73318PDBV" description="300mA Capacitor-Free Low Dropout Voltage Regulator, Fixed Output 1.8V, SOT-23-5"/>
+      <property name="Sheetname" value="01_Power"/>
+      <property name="Sheetfile" value="01_Power.kicad_sch"/>
+      <property name="ki_keywords" value="300mA LDO Regulator Fixed Positive Capacitor-Free"/>
+      <property name="ki_fp_filters" value="SOT?23*"/>
+      <sheetpath names="/01_Power/" tstamps="/859f5aff-bcd5-4fba-93b3-4ce3a57d0421/"/>
+      <tstamps>a787d633-3958-4d07-945d-c08a384efb85</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="3"/>
+            <pin num="2"/>
+            <pin num="4"/>
+            <pin num="5"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U5">
+      <value>TLV62569DBV</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/tlv62569.pdf</datasheet>
+      <description>High Efficiency Synchronous Buck Converter, Adjustable Output 0.6V-5.5V, 2A, SOT-23-5</description>
+      <fields>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/tlv62569.pdf</field>
+        <field name="Description">High Efficiency Synchronous Buck Converter, Adjustable Output 0.6V-5.5V, 2A, SOT-23-5</field>
+      </fields>
+      <libsource lib="Regulator_Switching" part="TLV62569DBV" description="High Efficiency Synchronous Buck Converter, Adjustable Output 0.6V-5.5V, 2A, SOT-23-5"/>
+      <property name="Sheetname" value="01_Power"/>
+      <property name="Sheetfile" value="01_Power.kicad_sch"/>
+      <property name="ki_keywords" value="Step-Down Buck DC-DC Regulator Adjustable"/>
+      <property name="ki_fp_filters" value="SOT?23*"/>
+      <sheetpath names="/01_Power/" tstamps="/859f5aff-bcd5-4fba-93b3-4ce3a57d0421/"/>
+      <tstamps>343c403e-4dff-4a7b-8002-60b68ea84290</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="4"/>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="5"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C20">
+      <value>0.1uF</value>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="02_FPGA_Core"/>
+      <property name="Sheetfile" value="02_FPGA_Core.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/02_FPGA_Core/" tstamps="/9925ae38-68a8-4578-8eba-8435ad978b5f/"/>
+      <tstamps>a5f874c0-b34e-4a29-b539-2f04748057db</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C21">
+      <value>0.1uF</value>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="02_FPGA_Core"/>
+      <property name="Sheetfile" value="02_FPGA_Core.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/02_FPGA_Core/" tstamps="/9925ae38-68a8-4578-8eba-8435ad978b5f/"/>
+      <tstamps>9e89d2ae-b419-4f57-8505-34dded1ecb7b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C22">
+      <value>0.1uF</value>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="02_FPGA_Core"/>
+      <property name="Sheetfile" value="02_FPGA_Core.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/02_FPGA_Core/" tstamps="/9925ae38-68a8-4578-8eba-8435ad978b5f/"/>
+      <tstamps>3c07718a-e749-4363-8741-b70d4aa808e3</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C23">
+      <value>0.1uF</value>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="02_FPGA_Core"/>
+      <property name="Sheetfile" value="02_FPGA_Core.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/02_FPGA_Core/" tstamps="/9925ae38-68a8-4578-8eba-8435ad978b5f/"/>
+      <tstamps>ede53915-1246-4ee1-8069-0842c70e2825</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C24">
+      <value>0.1uF</value>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="02_FPGA_Core"/>
+      <property name="Sheetfile" value="02_FPGA_Core.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/02_FPGA_Core/" tstamps="/9925ae38-68a8-4578-8eba-8435ad978b5f/"/>
+      <tstamps>e1c00762-41c9-4e24-b200-ca459de524e5</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C25">
+      <value>0.1uF</value>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="02_FPGA_Core"/>
+      <property name="Sheetfile" value="02_FPGA_Core.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/02_FPGA_Core/" tstamps="/9925ae38-68a8-4578-8eba-8435ad978b5f/"/>
+      <tstamps>2f4b906d-7325-47b0-9045-6691b6be309b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C26">
+      <value>0.1uF</value>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="02_FPGA_Core"/>
+      <property name="Sheetfile" value="02_FPGA_Core.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/02_FPGA_Core/" tstamps="/9925ae38-68a8-4578-8eba-8435ad978b5f/"/>
+      <tstamps>a85e11b2-81d7-4414-9bf1-c16cefecf73e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C27">
+      <value>0.1uF</value>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="02_FPGA_Core"/>
+      <property name="Sheetfile" value="02_FPGA_Core.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/02_FPGA_Core/" tstamps="/9925ae38-68a8-4578-8eba-8435ad978b5f/"/>
+      <tstamps>f0d24922-91a1-4149-aa09-39e641db4a4b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C28">
+      <value>0.1uF</value>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="02_FPGA_Core"/>
+      <property name="Sheetfile" value="02_FPGA_Core.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/02_FPGA_Core/" tstamps="/9925ae38-68a8-4578-8eba-8435ad978b5f/"/>
+      <tstamps>344f521e-ad73-41de-a686-90377ae244b6</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C29">
+      <value>0.1uF</value>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="02_FPGA_Core"/>
+      <property name="Sheetfile" value="02_FPGA_Core.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/02_FPGA_Core/" tstamps="/9925ae38-68a8-4578-8eba-8435ad978b5f/"/>
+      <tstamps>c35dfc6d-420a-49b6-a81f-f0cb4124afb0</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C30">
+      <value>0.1uF</value>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="02_FPGA_Core"/>
+      <property name="Sheetfile" value="02_FPGA_Core.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/02_FPGA_Core/" tstamps="/9925ae38-68a8-4578-8eba-8435ad978b5f/"/>
+      <tstamps>5dfdca7a-d8d3-432e-a157-a9109bdab98d</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C31">
+      <value>0.1uF</value>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="02_FPGA_Core"/>
+      <property name="Sheetfile" value="02_FPGA_Core.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/02_FPGA_Core/" tstamps="/9925ae38-68a8-4578-8eba-8435ad978b5f/"/>
+      <tstamps>c759bb1e-cbf2-4e46-bbe5-c01b84f8a125</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C32">
+      <value>0.1uF</value>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="02_FPGA_Core"/>
+      <property name="Sheetfile" value="02_FPGA_Core.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/02_FPGA_Core/" tstamps="/9925ae38-68a8-4578-8eba-8435ad978b5f/"/>
+      <tstamps>fa921e27-1952-4dda-b727-271b53291447</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C33">
+      <value>0.1uF</value>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="02_FPGA_Core"/>
+      <property name="Sheetfile" value="02_FPGA_Core.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/02_FPGA_Core/" tstamps="/9925ae38-68a8-4578-8eba-8435ad978b5f/"/>
+      <tstamps>514c3bc4-9a07-4be7-95db-ceb1643f9a95</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C34">
+      <value>0.1uF</value>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="02_FPGA_Core"/>
+      <property name="Sheetfile" value="02_FPGA_Core.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/02_FPGA_Core/" tstamps="/9925ae38-68a8-4578-8eba-8435ad978b5f/"/>
+      <tstamps>e6e1f5a9-bf91-4b28-909a-706b3bd43848</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C35">
+      <value>0.1uF</value>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="02_FPGA_Core"/>
+      <property name="Sheetfile" value="02_FPGA_Core.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/02_FPGA_Core/" tstamps="/9925ae38-68a8-4578-8eba-8435ad978b5f/"/>
+      <tstamps>4b50d7f8-79b7-4f4c-9a82-27ee234e0d9d</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C36">
+      <value>10uF</value>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="02_FPGA_Core"/>
+      <property name="Sheetfile" value="02_FPGA_Core.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/02_FPGA_Core/" tstamps="/9925ae38-68a8-4578-8eba-8435ad978b5f/"/>
+      <tstamps>e9865eb5-ac2f-4b9a-9955-2fe8983d3959</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C37">
+      <value>10uF</value>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="02_FPGA_Core"/>
+      <property name="Sheetfile" value="02_FPGA_Core.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/02_FPGA_Core/" tstamps="/9925ae38-68a8-4578-8eba-8435ad978b5f/"/>
+      <tstamps>af44ea60-0d0c-4fc2-9373-23d44e1053a1</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C38">
+      <value>10uF</value>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="02_FPGA_Core"/>
+      <property name="Sheetfile" value="02_FPGA_Core.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/02_FPGA_Core/" tstamps="/9925ae38-68a8-4578-8eba-8435ad978b5f/"/>
+      <tstamps>572f69a5-57e1-48fb-a559-4f566bdace86</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C39">
+      <value>1uF</value>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="02_FPGA_Core"/>
+      <property name="Sheetfile" value="02_FPGA_Core.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/02_FPGA_Core/" tstamps="/9925ae38-68a8-4578-8eba-8435ad978b5f/"/>
+      <tstamps>955ee087-fde1-4167-bc3a-760c20a5277f</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U4">
+      <value>GW5A-LV25MG121N</value>
+      <description>GW5A-LV25MG121N</description>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">GW5A-LV25MG121N</field>
+      </fields>
+      <libsource lib="symbol-table" part="GW5A-LV25MG121N" description="GW5A-LV25MG121N"/>
+      <property name="Sheetname" value="02_FPGA_Core"/>
+      <property name="Sheetfile" value="02_FPGA_Core.kicad_sch"/>
+      <sheetpath names="/02_FPGA_Core/" tstamps="/9925ae38-68a8-4578-8eba-8435ad978b5f/"/>
+      <tstamps>7e7a9121-fe23-4c99-9262-aa1e94de5594</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="K3"/>
+            <pin num="C8"/>
+            <pin num="D9"/>
+            <pin num="H3"/>
+            <pin num="G6"/>
+            <pin num="G3"/>
+            <pin num="G9"/>
+            <pin num="C4"/>
+            <pin num="C6"/>
+            <pin num="F8"/>
+            <pin num="F4"/>
+            <pin num="E9"/>
+            <pin num="J6"/>
+            <pin num="D4"/>
+            <pin num="J9"/>
+            <pin num="D2"/>
+            <pin num="A4"/>
+            <pin num="F10"/>
+            <pin num="D3"/>
+            <pin num="B4"/>
+            <pin num="C5"/>
+            <pin num="C7"/>
+            <pin num="C9"/>
+            <pin num="F11"/>
+            <pin num="F3"/>
+            <pin num="F9"/>
+            <pin num="H6"/>
+            <pin num="H9"/>
+            <pin num="J3"/>
+          </pins>
+        </unit>
+        <unit name="B">
+          <pins>
+            <pin num="D8"/>
+            <pin num="E8"/>
+            <pin num="E6"/>
+            <pin num="GND_MODE1"/>
+            <pin num="E7"/>
+            <pin num="VCCIO_MODE0"/>
+            <pin num="D7"/>
+            <pin num="C1"/>
+            <pin num="A3"/>
+            <pin num="B1"/>
+            <pin num="A2"/>
+            <pin num="GND_PUDC"/>
+            <pin num="B7"/>
+            <pin num="A7"/>
+            <pin num="B9"/>
+            <pin num="A9"/>
+            <pin num="B8"/>
+            <pin num="A8"/>
+            <pin num="B6"/>
+            <pin num="A6"/>
+            <pin num="B5"/>
+            <pin num="A5"/>
+          </pins>
+        </unit>
+        <unit name="C">
+          <pins>
+            <pin num="B1"/>
+            <pin num="A3"/>
+            <pin num="E2"/>
+            <pin num="E1"/>
+            <pin num="C1"/>
+            <pin num="D1"/>
+            <pin num="A1"/>
+            <pin num="F2"/>
+            <pin num="F1"/>
+            <pin num="B2"/>
+            <pin num="C2"/>
+            <pin num="D5"/>
+            <pin num="E4"/>
+            <pin num="B3"/>
+            <pin num="C3"/>
+            <pin num="E5"/>
+            <pin num="D6"/>
+            <pin num="E3"/>
+            <pin num="A2"/>
+          </pins>
+        </unit>
+        <unit name="D">
+          <pins>
+            <pin num="G4"/>
+            <pin num="H4"/>
+            <pin num="H1"/>
+            <pin num="H2"/>
+            <pin num="L2"/>
+            <pin num="L1"/>
+            <pin num="K1"/>
+            <pin num="K2"/>
+            <pin num="J4"/>
+            <pin num="K4"/>
+            <pin num="G2"/>
+            <pin num="G1"/>
+            <pin num="L4"/>
+            <pin num="L3"/>
+            <pin num="J1"/>
+            <pin num="J2"/>
+          </pins>
+        </unit>
+        <unit name="E">
+          <pins>
+            <pin num="B11"/>
+            <pin num="B10"/>
+            <pin num="A11"/>
+            <pin num="A10"/>
+            <pin num="E11"/>
+            <pin num="E10"/>
+            <pin num="C11"/>
+            <pin num="C10"/>
+            <pin num="D11"/>
+            <pin num="D10"/>
+            <pin num="K11"/>
+            <pin num="L11"/>
+            <pin num="L10"/>
+            <pin num="K10"/>
+            <pin num="L7"/>
+            <pin num="L8"/>
+            <pin num="J11"/>
+            <pin num="J10"/>
+            <pin num="K7"/>
+            <pin num="J7"/>
+            <pin num="L6"/>
+            <pin num="K6"/>
+            <pin num="L9"/>
+            <pin num="K9"/>
+            <pin num="H11"/>
+            <pin num="H10"/>
+            <pin num="J8"/>
+            <pin num="K8"/>
+            <pin num="F7"/>
+            <pin num="F6"/>
+            <pin num="H5"/>
+            <pin num="J5"/>
+            <pin num="L5"/>
+            <pin num="K5"/>
+            <pin num="H8"/>
+            <pin num="H7"/>
+            <pin num="G7"/>
+            <pin num="G8"/>
+            <pin num="F5"/>
+            <pin num="G5"/>
+            <pin num="G11"/>
+            <pin num="G10"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="USB_C_Receptacle_USB2.0_16P">
+      <description>USB 2.0-only 16P Type-C Receptacle connector</description>
+      <docs>https://www.usb.org/sites/default/files/documents/usb_type-c.zip</docs>
+      <footprints>
+        <fp>USB*C*Receptacle*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB_C_Receptacle_USB2.0_16P</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">https://www.usb.org/sites/default/files/documents/usb_type-c.zip</field>
+        <field name="Description">USB 2.0-only 16P Type-C Receptacle connector</field>
+      </fields>
+      <pins>
+        <pin num="A1" name="GND" type="passive"/>
+        <pin num="A4" name="VBUS" type="passive"/>
+        <pin num="A5" name="CC1" type="bidirectional"/>
+        <pin num="A6" name="D+" type="bidirectional"/>
+        <pin num="A7" name="D-" type="bidirectional"/>
+        <pin num="A8" name="SBU1" type="bidirectional"/>
+        <pin num="A9" name="VBUS" type="passive"/>
+        <pin num="A12" name="GND" type="passive"/>
+        <pin num="B1" name="GND" type="passive"/>
+        <pin num="B4" name="VBUS" type="passive"/>
+        <pin num="B5" name="CC2" type="bidirectional"/>
+        <pin num="B6" name="D+" type="bidirectional"/>
+        <pin num="B7" name="D-" type="bidirectional"/>
+        <pin num="B8" name="SBU2" type="bidirectional"/>
+        <pin num="B9" name="VBUS" type="passive"/>
+        <pin num="B12" name="GND" type="passive"/>
+        <pin num="SH" name="SHIELD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="L">
+      <description>Inductor</description>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Inductor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="TLV73318PDBV">
+      <description>300mA Capacitor-Free Low Dropout Voltage Regulator, Fixed Output 1.8V, SOT-23-5</description>
+      <docs>http://www.ti.com/lit/ds/symlink/tlv733p.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TLV73318PDBV</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/tlv733p.pdf</field>
+        <field name="Description">300mA Capacitor-Free Low Dropout Voltage Regulator, Fixed Output 1.8V, SOT-23-5</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="EN" type="input"/>
+        <pin num="4" name="NC" type="no_connect"/>
+        <pin num="5" name="OUT" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="TLV73325PDBV">
+      <description>300mA Capacitor-Free Low Dropout Voltage Regulator, Fixed Output 2.5V, SOT-23-5</description>
+      <docs>http://www.ti.com/lit/ds/symlink/tlv733p.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TLV73325PDBV</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/tlv733p.pdf</field>
+        <field name="Description">300mA Capacitor-Free Low Dropout Voltage Regulator, Fixed Output 2.5V, SOT-23-5</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="EN" type="input"/>
+        <pin num="4" name="NC" type="no_connect"/>
+        <pin num="5" name="OUT" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Switching" part="TLV62569DBV">
+      <description>High Efficiency Synchronous Buck Converter, Adjustable Output 0.6V-5.5V, 2A, SOT-23-5</description>
+      <docs>http://www.ti.com/lit/ds/symlink/tlv62569.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TLV62569DBV</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/tlv62569.pdf</field>
+        <field name="Description">High Efficiency Synchronous Buck Converter, Adjustable Output 0.6V-5.5V, 2A, SOT-23-5</field>
+      </fields>
+      <pins>
+        <pin num="1" name="EN" type="input"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="SW" type="power_out"/>
+        <pin num="4" name="VIN" type="power_in"/>
+        <pin num="5" name="FB" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="symbol-table" part="GW5A-LV25MG121N">
+      <description>GW5A-LV25MG121N</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">GW5A-LV25MG121N</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">GW5A-LV25MG121N</field>
+      </fields>
+      <pins>
+        <pin num="A1" name="IOB24A" type="bidirectional"/>
+        <pin num="A2" name="IOB8A/D05/SO/SSI1" type="bidirectional"/>
+        <pin num="A3" name="IOB10B/D04/SI/SSIO" type="bidirectional"/>
+        <pin num="A4" name="VCCIO2_3" type="power_in"/>
+        <pin num="A5" name="M0_D3P" type="bidirectional"/>
+        <pin num="A6" name="M0_D2P" type="bidirectional"/>
+        <pin num="A7" name="M0_CKP" type="bidirectional"/>
+        <pin num="A8" name="M0_D1P" type="bidirectional"/>
+        <pin num="A9" name="M0_D0P" type="bidirectional"/>
+        <pin num="A10" name="IOL14B/LPLL1_C_IN0" type="bidirectional"/>
+        <pin num="A11" name="IOL14A/LPLL1_T_IN0" type="bidirectional"/>
+        <pin num="B1" name="IOR3A/TMS" type="input"/>
+        <pin num="B2" name="IOB4A/D08/LPLL1_T_FB0" type="bidirectional"/>
+        <pin num="B3" name="IOB56A" type="bidirectional"/>
+        <pin num="B4" name="VSS" type="power_in"/>
+        <pin num="B5" name="M0_D3N" type="bidirectional"/>
+        <pin num="B6" name="M0_D2N" type="bidirectional"/>
+        <pin num="B7" name="M0_CKN" type="bidirectional"/>
+        <pin num="B8" name="M0_D1N" type="bidirectional"/>
+        <pin num="B9" name="M0_D0N" type="bidirectional"/>
+        <pin num="B10" name="IOL12B" type="bidirectional"/>
+        <pin num="B11" name="IOL12A" type="bidirectional"/>
+        <pin num="C1" name="IOB14A/SSPI_CLK" type="bidirectional"/>
+        <pin num="C2" name="IOB4B/D09/LPLL1_C_FB0" type="bidirectional"/>
+        <pin num="C3" name="IOB56B" type="bidirectional"/>
+        <pin num="C4" name="NC" type="no_connect"/>
+        <pin num="C5" name="VSS" type="power_in"/>
+        <pin num="C6" name="NC" type="no_connect"/>
+        <pin num="C7" name="VSS" type="power_in"/>
+        <pin num="C8" name="VDDAM" type="power_in"/>
+        <pin num="C9" name="VSS" type="power_in"/>
+        <pin num="C10" name="IOL5B/GCLKC_13/LPLL0_C_IN1/LPLL0_C_FB1" type="bidirectional"/>
+        <pin num="C11" name="IOL5A/GCLKT_13/LPLL0_T_IN1/LPLL0_T_FB1" type="bidirectional"/>
+        <pin num="D1" name="IOB14B/CLKHOLD_N/SSI3" type="bidirectional"/>
+        <pin num="D2" name="VCCIO5_10" type="power_in"/>
+        <pin num="D3" name="VEFUSE" type="power_in"/>
+        <pin num="D4" name="VCCIO4" type="power_in"/>
+        <pin num="D5" name="IOB54A/GCLKT_11B/D01/MI2/BPLL_T_FB1" type="bidirectional"/>
+        <pin num="D6" name="IOB58B/MOSI/CSI_B/MI0" type="bidirectional"/>
+        <pin num="D7" name="IOB64A/DONE" type="bidirectional"/>
+        <pin num="D8" name="IOB1A/RECONFIG_N" type="bidirectional"/>
+        <pin num="D9" name="VDDDM" type="power_in"/>
+        <pin num="D10" name="IOL9B" type="bidirectional"/>
+        <pin num="D11" name="IOL9A" type="bidirectional"/>
+        <pin num="E1" name="IOB12B/GCLKC_10B/RDWR_B/LPLL1_C_IN1" type="bidirectional"/>
+        <pin num="E2" name="IOB12A/GCLKT_10B/D07/SSPI_WPN/SSI2/LPLL1_T_IN1" type="bidirectional"/>
+        <pin num="E3" name="IOB60A" type="bidirectional"/>
+        <pin num="E4" name="IOB54B/GCLKC_11B/D02/MI3/BPLL_C_FB1" type="bidirectional"/>
+        <pin num="E5" name="IOB58A/D00/MISO/MI1/DIN" type="bidirectional"/>
+        <pin num="E6" name="IOB37B/MCS_N/CSO_B" type="bidirectional"/>
+        <pin num="E7" name="IOB62A/CCLK" type="bidirectional"/>
+        <pin num="E8" name="IOB37A/READY" type="bidirectional"/>
+        <pin num="E9" name="VCC" type="power_in"/>
+        <pin num="E10" name="IOL3B/GCLKC_14/LPLL0_C_IN2/LPLL0_C_FB0" type="bidirectional"/>
+        <pin num="E11" name="IOL3A/GCLKT_14/LPLL0_T_IN2/LPLL0_T_FB0" type="bidirectional"/>
+        <pin num="F1" name="IOB26B/GCLKC_9B" type="bidirectional"/>
+        <pin num="F2" name="IOB26A/GCLKT_9B" type="bidirectional"/>
+        <pin num="F3" name="VSS" type="power_in"/>
+        <pin num="F4" name="VCC" type="power_in"/>
+        <pin num="F5" name="IOT72A" type="bidirectional"/>
+        <pin num="F6" name="IOT58B/GCLKC_1/TPLL_C_IN2/TPLL_C_FB0" type="bidirectional"/>
+        <pin num="F7" name="IOT58A/GCLKT_1/TPLL_T_IN2/TPLL_T_FB0" type="bidirectional"/>
+        <pin num="F8" name="VCC" type="power_in"/>
+        <pin num="F9" name="VSS" type="power_in"/>
+        <pin num="F10" name="VCCIO6_7" type="power_in"/>
+        <pin num="F11" name="VSS" type="power_in"/>
+        <pin num="G1" name="IOR24B" type="bidirectional"/>
+        <pin num="G2" name="IOR24A" type="bidirectional"/>
+        <pin num="G3" name="VCCX_VDDXM" type="power_in"/>
+        <pin num="G4" name="IOB89A/GCLKT_7/BPLL_T_IN0" type="bidirectional"/>
+        <pin num="G5" name="IOT72B" type="bidirectional"/>
+        <pin num="G6" name="VCCX_VDDXM" type="power_in"/>
+        <pin num="G7" name="IOT68A" type="bidirectional"/>
+        <pin num="G8" name="IOT68B" type="bidirectional"/>
+        <pin num="G9" name="VCCX_VDDXM" type="power_in"/>
+        <pin num="G10" name="IOT7B" type="bidirectional"/>
+        <pin num="G11" name="IOT7A" type="bidirectional"/>
+        <pin num="GND_MODE1" name="IOB52A/MODE1" type="input"/>
+        <pin num="GND_PUDC" name="IOT29A/PUDC_B" type="input"/>
+        <pin num="H1" name="IOB91A/GCLKT_6A" type="bidirectional"/>
+        <pin num="H2" name="IOB91B/GCLKC_6A" type="bidirectional"/>
+        <pin num="H3" name="VCCX_VDDXM" type="power_in"/>
+        <pin num="H4" name="IOB89B/GCLKC_7/BPLL_C_IN0" type="bidirectional"/>
+        <pin num="H5" name="IOT61A/GCLKT_2/TPLL_T_IN0" type="bidirectional"/>
+        <pin num="H6" name="VSS" type="power_in"/>
+        <pin num="H7" name="IOT66B" type="bidirectional"/>
+        <pin num="H8" name="IOT66A" type="bidirectional"/>
+        <pin num="H9" name="VSS" type="power_in"/>
+        <pin num="H10" name="IOT3B/GCLKC_16" type="bidirectional"/>
+        <pin num="H11" name="IOT3A/GCLKT_16" type="bidirectional"/>
+        <pin num="J1" name="IOR33A/GCLKT_5/RPLL1_T_IN1/RPLL1_T_FB0" type="bidirectional"/>
+        <pin num="J2" name="IOR33B/GCLKC_5/RPLL1_C_IN1/RPLL1_C_FB0" type="bidirectional"/>
+        <pin num="J3" name="VSS" type="power_in"/>
+        <pin num="J4" name="IOR22A" type="bidirectional"/>
+        <pin num="J5" name="IOT61B/GCLKC_2/TPLL_C_IN0" type="bidirectional"/>
+        <pin num="J6" name="VCCLDO" type="power_in"/>
+        <pin num="J7" name="IOT21B" type="bidirectional"/>
+        <pin num="J8" name="IOT56A/GCLKT_0/TPLL_T_IN1/TPLL0_T_FB1" type="bidirectional"/>
+        <pin num="J9" name="VCCIO0_1" type="power_in"/>
+        <pin num="J10" name="IOT1B/GCLKC_15/LPLL0_C_IN0" type="bidirectional"/>
+        <pin num="J11" name="IOT1A/GCLKT_15/LPLL0_T_IN0" type="bidirectional"/>
+        <pin num="K1" name="IOR20A" type="bidirectional"/>
+        <pin num="K2" name="IOR20B" type="bidirectional"/>
+        <pin num="K3" name="VDD12M" type="power_in"/>
+        <pin num="K4" name="IOR22B" type="bidirectional"/>
+        <pin num="K5" name="IOT63B/GCLKC_3/RPLL0_C_IN0" type="bidirectional"/>
+        <pin num="K6" name="IOT23B" type="bidirectional"/>
+        <pin num="K7" name="IOT21A" type="bidirectional"/>
+        <pin num="K8" name="IOT56B/GCLKC_0/TPLL_C_IN1/TPLL_C_FB1" type="bidirectional"/>
+        <pin num="K9" name="IOT31B" type="bidirectional"/>
+        <pin num="K10" name="IOT15B" type="bidirectional"/>
+        <pin num="K11" name="IOT11A" type="bidirectional"/>
+        <pin num="L1" name="IOR18B" type="bidirectional"/>
+        <pin num="L2" name="IOR18A" type="bidirectional"/>
+        <pin num="L3" name="IOR31B/GCLKC_4/RPLL1_C_IN0/RPLL1_C_FB1" type="bidirectional"/>
+        <pin num="L4" name="IOR31A/GCLKT_4/RPLL1_T_IN0/RPLL1_T_FB1" type="bidirectional"/>
+        <pin num="L5" name="IOT63A/GCLKT_3/RPLL0_T_IN0" type="bidirectional"/>
+        <pin num="L6" name="IOT23A" type="bidirectional"/>
+        <pin num="L7" name="IOT19A" type="bidirectional"/>
+        <pin num="L8" name="IOT19B" type="bidirectional"/>
+        <pin num="L9" name="IOT31A" type="bidirectional"/>
+        <pin num="L10" name="IOT15A" type="bidirectional"/>
+        <pin num="L11" name="IOT11B" type="bidirectional"/>
+        <pin num="VCCIO_MODE0" name="IOB62B/MODE0" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>${KICAD10_SYMBOL_DIR}/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>${KICAD10_SYMBOL_DIR}/Device.kicad_sym</uri>
+    </library>
+    <library logical="Regulator_Linear">
+      <uri>${KICAD10_SYMBOL_DIR}/Regulator_Linear.kicad_sym</uri>
+    </library>
+    <library logical="Regulator_Switching">
+      <uri>${KICAD10_SYMBOL_DIR}/Regulator_Switching.kicad_sym</uri>
+    </library>
+    <library logical="symbol-table">
+      <uri>/home/aj/beanx5/hardware/symbols/symbol-table.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+1V2" class="Default">
+      <node ref="C20" pin="1" pintype="passive"/>
+      <node ref="C21" pin="1" pintype="passive"/>
+      <node ref="C22" pin="1" pintype="passive"/>
+      <node ref="C23" pin="1" pintype="passive"/>
+      <node ref="C24" pin="1" pintype="passive"/>
+      <node ref="C36" pin="1" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="L1" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="U4" pin="D9" pinfunction="VDDDM_D9" pintype="power_in"/>
+      <node ref="U4" pin="E9" pinfunction="VCC_E9" pintype="power_in"/>
+      <node ref="U4" pin="F4" pinfunction="VCC_F4" pintype="power_in"/>
+      <node ref="U4" pin="F8" pinfunction="VCC_F8" pintype="power_in"/>
+      <node ref="U4" pin="K3" pinfunction="VDD12M_K3" pintype="power_in"/>
+    </net>
+    <net code="2" name="+1V8" class="Default">
+      <node ref="C13" pin="1" pintype="passive"/>
+      <node ref="U3" pin="5" pinfunction="OUT_5" pintype="power_out"/>
+    </net>
+    <net code="3" name="+2V5" class="Default">
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="C25" pin="1" pintype="passive"/>
+      <node ref="C26" pin="1" pintype="passive"/>
+      <node ref="C27" pin="1" pintype="passive"/>
+      <node ref="C28" pin="1" pintype="passive"/>
+      <node ref="C35" pin="1" pintype="passive"/>
+      <node ref="C37" pin="1" pintype="passive"/>
+      <node ref="U2" pin="5" pinfunction="OUT_5" pintype="power_out"/>
+      <node ref="U4" pin="C8" pinfunction="VDDAM_C8" pintype="power_in"/>
+      <node ref="U4" pin="G3" pinfunction="VCCX_VDDXM_G3" pintype="power_in"/>
+      <node ref="U4" pin="G6" pinfunction="VCCX_VDDXM_G6" pintype="power_in"/>
+      <node ref="U4" pin="G9" pinfunction="VCCX_VDDXM_G9" pintype="power_in"/>
+      <node ref="U4" pin="H3" pinfunction="VCCX_VDDXM_H3" pintype="power_in"/>
+    </net>
+    <net code="4" name="+3V3" class="Default">
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="C12" pin="1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C29" pin="1" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C30" pin="1" pintype="passive"/>
+      <node ref="C31" pin="1" pintype="passive"/>
+      <node ref="C32" pin="1" pintype="passive"/>
+      <node ref="C33" pin="1" pintype="passive"/>
+      <node ref="C34" pin="1" pintype="passive"/>
+      <node ref="C38" pin="1" pintype="passive"/>
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="L2" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="EN_1" pintype="input"/>
+      <node ref="U1" pin="4" pinfunction="VIN_4" pintype="power_in"/>
+      <node ref="U2" pin="1" pinfunction="IN_1" pintype="power_in"/>
+      <node ref="U2" pin="3" pinfunction="EN_3" pintype="input"/>
+      <node ref="U3" pin="1" pinfunction="IN_1" pintype="power_in"/>
+      <node ref="U3" pin="3" pinfunction="EN_3" pintype="input"/>
+      <node ref="U4" pin="A4" pinfunction="VCCIO2_3_A4" pintype="power_in"/>
+      <node ref="U4" pin="D2" pinfunction="VCCIO5_10_D2" pintype="power_in"/>
+      <node ref="U4" pin="D4" pinfunction="VCCIO4_D4" pintype="power_in"/>
+      <node ref="U4" pin="F10" pinfunction="VCCIO6_7_F10" pintype="power_in"/>
+      <node ref="U4" pin="J9" pinfunction="VCCIO0_1_J9" pintype="power_in"/>
+    </net>
+    <net code="5" name="+5V" class="Default">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="J1" pin="A4" pinfunction="VBUS_A4" pintype="passive"/>
+      <node ref="J1" pin="A9" pinfunction="VBUS_A9" pintype="passive"/>
+      <node ref="J1" pin="B4" pinfunction="VBUS_B4" pintype="passive"/>
+      <node ref="J1" pin="B9" pinfunction="VBUS_B9" pintype="passive"/>
+      <node ref="U5" pin="1" pinfunction="EN_1" pintype="input"/>
+      <node ref="U5" pin="4" pinfunction="VIN_4" pintype="power_in"/>
+    </net>
+    <net code="6" name="/02_FPGA_Core/VCCLDO" class="Default">
+      <node ref="C39" pin="1" pintype="passive"/>
+      <node ref="U4" pin="J6" pinfunction="VCCLDO_J6" pintype="power_in"/>
+    </net>
+    <net code="7" name="GND" class="Default">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="C12" pin="2" pintype="passive"/>
+      <node ref="C13" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C20" pin="2" pintype="passive"/>
+      <node ref="C21" pin="2" pintype="passive"/>
+      <node ref="C22" pin="2" pintype="passive"/>
+      <node ref="C23" pin="2" pintype="passive"/>
+      <node ref="C24" pin="2" pintype="passive"/>
+      <node ref="C25" pin="2" pintype="passive"/>
+      <node ref="C26" pin="2" pintype="passive"/>
+      <node ref="C27" pin="2" pintype="passive"/>
+      <node ref="C28" pin="2" pintype="passive"/>
+      <node ref="C29" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C30" pin="2" pintype="passive"/>
+      <node ref="C31" pin="2" pintype="passive"/>
+      <node ref="C32" pin="2" pintype="passive"/>
+      <node ref="C33" pin="2" pintype="passive"/>
+      <node ref="C34" pin="2" pintype="passive"/>
+      <node ref="C35" pin="2" pintype="passive"/>
+      <node ref="C36" pin="2" pintype="passive"/>
+      <node ref="C37" pin="2" pintype="passive"/>
+      <node ref="C38" pin="2" pintype="passive"/>
+      <node ref="C39" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="J1" pin="A1" pinfunction="GND_A1" pintype="passive"/>
+      <node ref="J1" pin="A12" pinfunction="GND_A12" pintype="passive"/>
+      <node ref="J1" pin="B1" pinfunction="GND_B1" pintype="passive"/>
+      <node ref="J1" pin="B12" pinfunction="GND_B12" pintype="passive"/>
+      <node ref="J1" pin="SH" pinfunction="SHIELD_SH" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="GND_2" pintype="power_in"/>
+      <node ref="U2" pin="2" pinfunction="GND_2" pintype="power_in"/>
+      <node ref="U3" pin="2" pinfunction="GND_2" pintype="power_in"/>
+      <node ref="U4" pin="B4" pinfunction="VSS_B4" pintype="power_in"/>
+      <node ref="U4" pin="C5" pinfunction="VSS_C5" pintype="power_in"/>
+      <node ref="U4" pin="C7" pinfunction="VSS_C7" pintype="power_in"/>
+      <node ref="U4" pin="C9" pinfunction="VSS_C9" pintype="power_in"/>
+      <node ref="U4" pin="D3" pinfunction="VEFUSE_D3" pintype="power_in"/>
+      <node ref="U4" pin="F11" pinfunction="VSS_F11" pintype="power_in"/>
+      <node ref="U4" pin="F3" pinfunction="VSS_F3" pintype="power_in"/>
+      <node ref="U4" pin="F9" pinfunction="VSS_F9" pintype="power_in"/>
+      <node ref="U4" pin="H6" pinfunction="VSS_H6" pintype="power_in"/>
+      <node ref="U4" pin="H9" pinfunction="VSS_H9" pintype="power_in"/>
+      <node ref="U4" pin="J3" pinfunction="VSS_J3" pintype="power_in"/>
+      <node ref="U5" pin="2" pinfunction="GND_2" pintype="power_in"/>
+    </net>
+    <net code="8" name="Net-(J1-CC1)" class="Default">
+      <node ref="J1" pin="A5" pinfunction="CC1_A5" pintype="bidirectional"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+    </net>
+    <net code="9" name="Net-(J1-CC2)" class="Default">
+      <node ref="J1" pin="B5" pinfunction="CC2_B5" pintype="bidirectional"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+    </net>
+    <net code="10" name="Net-(U1-FB)" class="Default">
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="FB_5" pintype="input"/>
+    </net>
+    <net code="11" name="Net-(U1-SW)" class="Default">
+      <node ref="L1" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="SW_3" pintype="power_out"/>
+    </net>
+    <net code="12" name="Net-(U5-FB)" class="Default">
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="U5" pin="5" pinfunction="FB_5" pintype="input"/>
+    </net>
+    <net code="13" name="Net-(U5-SW)" class="Default">
+      <node ref="L2" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U5" pin="3" pinfunction="SW_3" pintype="power_out"/>
+    </net>
+    <net code="14" name="USB_D+" class="Default">
+      <node ref="J1" pin="A6" pinfunction="D+_A6" pintype="bidirectional"/>
+      <node ref="J1" pin="B6" pinfunction="D+_B6" pintype="bidirectional"/>
+    </net>
+    <net code="15" name="USB_D-" class="Default">
+      <node ref="J1" pin="A7" pinfunction="D-_A7" pintype="bidirectional"/>
+      <node ref="J1" pin="B7" pinfunction="D-_B7" pintype="bidirectional"/>
+    </net>
+    <net code="16" name="unconnected-(J1-SBU1-PadA8)" class="Default">
+      <node ref="J1" pin="A8" pinfunction="SBU1_A8" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="17" name="unconnected-(J1-SBU2-PadB8)" class="Default">
+      <node ref="J1" pin="B8" pinfunction="SBU2_B8" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="18" name="unconnected-(U2-NC-Pad4)" class="Default">
+      <node ref="U2" pin="4" pinfunction="NC_4" pintype="no_connect"/>
+    </net>
+    <net code="19" name="unconnected-(U3-NC-Pad4)" class="Default">
+      <node ref="U3" pin="4" pinfunction="NC_4" pintype="no_connect"/>
+    </net>
+    <net code="20" name="unconnected-(U4A-NC-PadC4)" class="Default">
+      <node ref="U4" pin="C4" pinfunction="NC_C4" pintype="no_connect"/>
+    </net>
+    <net code="21" name="unconnected-(U4A-NC-PadC6)" class="Default">
+      <node ref="U4" pin="C6" pinfunction="NC_C6" pintype="no_connect"/>
+    </net>
+  </nets>
+</export>

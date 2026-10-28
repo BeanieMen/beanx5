@@ -3041,7 +3041,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 105.41) (xy 74.93 105.41)
+			(xy 45.72 105.41) (xy 58.42 105.41)
 		)
 		(stroke
 			(width 0)
@@ -3098,6 +3098,16 @@
 			(type default)
 		)
 		(uuid "39e7747d-9def-40fb-854a-7b22931b5651")
+	)
+	(wire
+		(pts
+			(xy 58.42 69.85) (xy 67.31 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43703566-50af-4244-bf55-47102885b191")
 	)
 	(wire
 		(pts
@@ -3311,7 +3321,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 83.82) (xy 171.45 83.82)
+			(xy 149.86 83.82) (xy 161.29 83.82)
 		)
 		(stroke
 			(width 0)
@@ -3461,6 +3471,16 @@
 	)
 	(wire
 		(pts
+			(xy 161.29 83.82) (xy 171.45 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1c97286-b529-4308-92db-931636f000aa")
+	)
+	(wire
+		(pts
 			(xy 95.25 67.31) (xy 100.33 67.31)
 		)
 		(stroke
@@ -3471,7 +3491,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 69.85) (xy 67.31 69.85)
+			(xy 46.99 69.85) (xy 58.42 69.85)
 		)
 		(stroke
 			(width 0)
@@ -3508,6 +3528,16 @@
 			(type default)
 		)
 		(uuid "b920b690-7bc7-4a1c-bc06-5be7d58601c6")
+	)
+	(wire
+		(pts
+			(xy 58.42 105.41) (xy 74.93 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba2227d0-083c-43f9-899b-7d18d7e04859")
 	)
 	(wire
 		(pts
@@ -3698,6 +3728,16 @@
 			(type default)
 		)
 		(uuid "f0eddd13-588e-459b-9dc7-5d502e243d62")
+	)
+	(wire
+		(pts
+			(xy 115.57 153.67) (xy 115.57 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1883920-4e12-4c28-9f15-8d264e120001")
 	)
 	(wire
 		(pts
@@ -6897,6 +6937,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 182.88 64.77 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f1883920-4e12-4c28-9f15-8d264e120003")
+		(property "Reference" "#FLG04"
+			(at 182.88 66.675 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 182.88 68.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 182.88 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 182.88 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 182.88 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f1883920-4e12-4c28-9f15-8d264e120004")
+		)
+		(instances
+			(project "beanx5"
+				(path "/af63fa6e-973d-4760-8f53-35b43d2ef866/859f5aff-bcd5-4fba-93b3-4ce3a57d0421"
+					(reference "#FLG04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 171.45 80.01 0)
 		(unit 1)
@@ -7133,89 +7251,6 @@
 			(project "beanx5"
 				(path "/af63fa6e-973d-4760-8f53-35b43d2ef866/859f5aff-bcd5-4fba-93b3-4ce3a57d0421"
 					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(wire
-		(pts
-			(xy 115.57 153.67) (xy 115.57 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f1883920-4e12-4c28-9f15-8d264e120001")
-	)
-	(junction (at 115.57 160.02) (diameter 0) (color 0 0 0 0) (uuid "f1883920-4e12-4c28-9f15-8d264e120002"))
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 182.88 64.77 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f1883920-4e12-4c28-9f15-8d264e120003")
-		(property "Reference" "#FLG04"
-			(at 182.88 66.675 0)
-			(hide yes)
-			(show_name no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 182.88 68.58 0)
-			(show_name no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 182.88 64.77 0)
-			(hide yes)
-			(show_name no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 182.88 64.77 0)
-			(hide yes)
-			(show_name no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 182.88 64.77 0)
-			(hide yes)
-			(show_name no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f1883920-4e12-4c28-9f15-8d264e120004")
-		)
-		(instances
-			(project "beanx5"
-				(path "/af63fa6e-973d-4760-8f53-35b43d2ef866/859f5aff-bcd5-4fba-93b3-4ce3a57d0421"
-					(reference "#FLG04")
 					(unit 1)
 				)
 			)

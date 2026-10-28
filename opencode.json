@@ -1,0 +1,17 @@
+{
+  "mcp": {
+    "servers": {
+      "kicad": {
+        "type": "local",
+        "command": [
+          "/home/aj/.local/mcp/kicad/bin/mcp-server-kicad"
+        ],
+        "environment": {
+          "KICAD_SCH_PATH": "/home/aj/beanx5/hardware/pcb/beanx5.kicad_sch",
+          "KICAD_PCB_PATH": "/home/aj/beanx5/hardware/pcb/beanx5.kicad_pcb",
+          "KICAD_OUTPUT_DIR": "/home/aj/beanx5"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,103 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-10-28T22:40:01",
+    "ignored_checks": [
+        {
+            "description": "Global label only appears once in the schematic",
+            "key": "single_global_label"
+        },
+        {
+            "description": "Four connection points are joined together",
+            "key": "four_way_junction"
+        },
+        {
+            "description": "SPICE model issue",
+            "key": "simulation_model_issue"
+        },
+        {
+            "description": "Assigned footprint doesn't match footprint filters",
+            "key": "footprint_filter"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.7",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/af63fa6e-973d-4760-8f53-35b43d2ef866",
+            "violations": []
+        },
+        {
+            "path": "/01_Power/",
+            "uuid_path": "/af63fa6e-973d-4760-8f53-35b43d2ef866/859f5aff-bcd5-4fba-93b3-4ce3a57d0421",
+            "violations": []
+        },
+        {
+            "path": "/02_FPGA_Core/",
+            "uuid_path": "/af63fa6e-973d-4760-8f53-35b43d2ef866/9925ae38-68a8-4578-8eba-8435ad978b5f",
+            "violations": [
+                {
+                    "description": "Symbol U4 has bidirectional pins in units [ B, C, D, . ] that are not placed",
+                    "items": [
+                        {
+                            "description": "Symbol U4 [GW5A-LV25MG121N]",
+                            "pos": {
+                                "x": 227.33,
+                                "y": 102.87
+                            },
+                            "uuid": "7e7a9121-fe23-4c99-9262-aa1e94de5594"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "missing_bidi_pin"
+                },
+                {
+                    "description": "Symbol U4 has input pins in units [ B ] that are not placed",
+                    "items": [
+                        {
+                            "description": "Symbol U4 [GW5A-LV25MG121N]",
+                            "pos": {
+                                "x": 227.33,
+                                "y": 102.87
+                            },
+                            "uuid": "7e7a9121-fe23-4c99-9262-aa1e94de5594"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "missing_input_pin"
+                },
+                {
+                    "description": "Symbol U4 has unplaced units [ B, C, D, . ]",
+                    "items": [
+                        {
+                            "description": "Symbol U4 [GW5A-LV25MG121N]",
+                            "pos": {
+                                "x": 227.33,
+                                "y": 102.87
+                            },
+                            "uuid": "7e7a9121-fe23-4c99-9262-aa1e94de5594"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "missing_unit"
+                }
+            ]
+        },
+        {
+            "path": "/03_Debugger_BL616/",
+            "uuid_path": "/af63fa6e-973d-4760-8f53-35b43d2ef866/79e0fd38-7692-46d5-aa80-8eb471c348ac",
+            "violations": []
+        },
+        {
+            "path": "/04_Peripherals/",
+            "uuid_path": "/af63fa6e-973d-4760-8f53-35b43d2ef866/3292fef4-62db-49f3-ac69-07071b7fa5ed",
+            "violations": []
+        }
+    ],
+    "source": "beanx5.kicad_sch"
+}

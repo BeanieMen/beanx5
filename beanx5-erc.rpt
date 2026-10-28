@@ -1,4 +1,4 @@
-ERC report (2026-10-22T21:49:01, Encoding UTF8)
+ERC report (2026-10-27T23:52:08, Encoding UTF8)
 Report includes: Errors, Warnings
 
 ***** Sheet /
@@ -6,10 +6,6 @@ Report includes: Errors, Warnings
 ***** Sheet /01_Power/
 
 ***** Sheet /02_FPGA_Core/
-
-***** Sheet /03_Debugger_BL616/
-
-***** Sheet /04_Peripherals/
 
  ** ERC messages: 0  Errors 0  Warnings 0
 
