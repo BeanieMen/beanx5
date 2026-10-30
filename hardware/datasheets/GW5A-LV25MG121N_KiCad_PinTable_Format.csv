@@ -1,9 +1,6 @@
 Number,Name,Electrical Type,Graphic Style,Orientation,Number Text Size,Name Text Size,Length,X Position,Y Position,Visible,Unit,Body Style
-B1,IOB10A/D03/SSPI_CS_N,Bidirectional,Line,Right,50,50,100,0,0,True,3,0
-A3,IOB10B/D04/SI/SSIO,Bidirectional,Line,Right,50,50,100,0,0,True,3,0
 E2,IOB12A/GCLKT_10B/D07/SSPI_WPN/SSI2/LPLL1_T_IN1,Bidirectional,Line,Right,50,50,100,0,0,True,3,0
 E1,IOB12B/GCLKC_10B/RDWR_B/LPLL1_C_IN1,Bidirectional,Line,Right,50,50,100,0,0,True,3,0
-C1,IOB14A/SSPI_CLK,Bidirectional,Line,Right,50,50,100,0,0,True,3,0
 D1,IOB14B/CLKHOLD_N/SSI3,Bidirectional,Line,Right,50,50,100,0,0,True,3,0
 D8,IOB1A/RECONFIG_N,Bidirectional,Line,Right,50,50,100,0,0,True,2,0
 A1,IOB24A,Bidirectional,Line,Right,50,50,100,0,0,True,3,0
@@ -13,7 +10,6 @@ E8,IOB37A/READY,Bidirectional,Line,Right,50,50,100,0,0,True,2,0
 E6,IOB37B/MCS_N/CSO_B,Bidirectional,Line,Right,50,50,100,0,0,True,2,0
 B2,IOB4A/D08/LPLL1_T_FB0,Bidirectional,Line,Right,50,50,100,0,0,True,3,0
 C2,IOB4B/D09/LPLL1_C_FB0,Bidirectional,Line,Right,50,50,100,0,0,True,3,0
-GND_MODE1,IOB52A/MODE1,Input,Line,Right,50,50,100,0,0,True,2,0
 D5,IOB54A/GCLKT_11B/D01/MI2/BPLL_T_FB1,Bidirectional,Line,Right,50,50,100,0,0,True,3,0
 E4,IOB54B/GCLKC_11B/D02/MI3/BPLL_C_FB1,Bidirectional,Line,Right,50,50,100,0,0,True,3,0
 B3,IOB56A,Bidirectional,Line,Right,50,50,100,0,0,True,3,0
@@ -22,11 +18,9 @@ E5,IOB58A/D00/MISO/MI1/DIN,Bidirectional,Line,Right,50,50,100,0,0,True,3,0
 D6,IOB58B/MOSI/CSI_B/MI0,Bidirectional,Line,Right,50,50,100,0,0,True,3,0
 E3,IOB60A,Bidirectional,Line,Right,50,50,100,0,0,True,3,0
 E7,IOB62A/CCLK,Bidirectional,Line,Right,50,50,100,0,0,True,2,0
-VCCIO_MODE0,IOB62B/MODE0,Input,Line,Right,50,50,100,0,0,True,2,0
 D7,IOB64A/DONE,Bidirectional,Line,Right,50,50,100,0,0,True,2,0
 G4,IOB89A/GCLKT_7/BPLL_T_IN0,Bidirectional,Line,Right,50,50,100,0,0,True,4,0
 H4,IOB89B/GCLKC_7/BPLL_C_IN0,Bidirectional,Line,Right,50,50,100,0,0,True,4,0
-A2,IOB8A/D05/SO/SSI1,Bidirectional,Line,Right,50,50,100,0,0,True,3,0
 H1,IOB91A/GCLKT_6A,Bidirectional,Line,Right,50,50,100,0,0,True,4,0
 H2,IOB91B/GCLKC_6A,Bidirectional,Line,Right,50,50,100,0,0,True,4,0
 B11,IOL12A,Bidirectional,Line,Right,50,50,100,0,0,True,5,0
@@ -41,8 +35,8 @@ D11,IOL9A,Bidirectional,Line,Right,50,50,100,0,0,True,5,0
 D10,IOL9B,Bidirectional,Line,Right,50,50,100,0,0,True,5,0
 L2,IOR18A,Bidirectional,Line,Right,50,50,100,0,0,True,4,0
 L1,IOR18B,Bidirectional,Line,Right,50,50,100,0,0,True,4,0
-C1,IOR1A/TCK,Input,Line,Right,50,50,100,0,0,True,2,0
-A3,IOR1B/TDI,Input,Line,Right,50,50,100,0,0,True,2,0
+C1,TCK/IOB14A,Input,Line,Right,50,50,100,0,0,True,2,0
+A3,TDI/IOB10B,Input,Line,Right,50,50,100,0,0,True,2,0
 K1,IOR20A,Bidirectional,Line,Right,50,50,100,0,0,True,4,0
 K2,IOR20B,Bidirectional,Line,Right,50,50,100,0,0,True,4,0
 J4,IOR22A,Bidirectional,Line,Right,50,50,100,0,0,True,4,0
@@ -53,8 +47,8 @@ L4,IOR31A/GCLKT_4/RPLL1_T_IN0/RPLL1_T_FB1,Bidirectional,Line,Right,50,50,100,0,0
 L3,IOR31B/GCLKC_4/RPLL1_C_IN0/RPLL1_C_FB1,Bidirectional,Line,Right,50,50,100,0,0,True,4,0
 J1,IOR33A/GCLKT_5/RPLL1_T_IN1/RPLL1_T_FB0,Bidirectional,Line,Right,50,50,100,0,0,True,4,0
 J2,IOR33B/GCLKC_5/RPLL1_C_IN1/RPLL1_C_FB0,Bidirectional,Line,Right,50,50,100,0,0,True,4,0
-B1,IOR3A/TMS,Input,Line,Right,50,50,100,0,0,True,2,0
-A2,IOR3B/TDO,Output,Line,Right,50,50,100,0,0,True,2,0
+B1,TMS/IOB10A,Input,Line,Right,50,50,100,0,0,True,2,0
+A2,TDO/IOB8A,Output,Line,Right,50,50,100,0,0,True,2,0
 K11,IOT11A,Bidirectional,Line,Right,50,50,100,0,0,True,5,0
 L11,IOT11B,Bidirectional,Line,Right,50,50,100,0,0,True,5,0
 L10,IOT15A,Bidirectional,Line,Right,50,50,100,0,0,True,5,0
@@ -67,7 +61,6 @@ K7,IOT21A,Bidirectional,Line,Right,50,50,100,0,0,True,5,0
 J7,IOT21B,Bidirectional,Line,Right,50,50,100,0,0,True,5,0
 L6,IOT23A,Bidirectional,Line,Right,50,50,100,0,0,True,5,0
 K6,IOT23B,Bidirectional,Line,Right,50,50,100,0,0,True,5,0
-GND_PUDC,IOT29A/PUDC_B,Input,Line,Right,50,50,100,0,0,True,2,0
 L9,IOT31A,Bidirectional,Line,Right,50,50,100,0,0,True,5,0
 K9,IOT31B,Bidirectional,Line,Right,50,50,100,0,0,True,5,0
 H11,IOT3A/GCLKT_16,Bidirectional,Line,Right,50,50,100,0,0,True,5,0

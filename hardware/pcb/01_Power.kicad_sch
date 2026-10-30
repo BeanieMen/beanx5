@@ -5257,7 +5257,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Special symbol for telling ERC where power comes from"
 			(at 46.99 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -5622,7 +5622,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Special symbol for telling ERC where power comes from"
 			(at 45.72 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -6666,7 +6666,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 124.46 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -6744,7 +6744,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Special symbol for telling ERC where power comes from"
 			(at 124.46 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -6991,7 +6991,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Special symbol for telling ERC where power comes from"
 			(at 182.88 64.77 0)
 			(hide yes)
 			(show_name no)
