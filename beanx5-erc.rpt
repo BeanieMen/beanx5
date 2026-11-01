@@ -1,44 +1,89 @@
-ERC report (2026-11-01T22:35:14, Encoding UTF8)
+ERC report (2026-11-01T22:57:13, Encoding UTF8)
 Report includes: Errors, Warnings, Exclusions
 
 ***** Sheet /
 [isolated_pin_label]: Label connected to only one pin
     ; warning
-    @(361.95 mm, 96.52 mm): Label 'JTAG_TCK'
+    @(429.26 mm, 78.74 mm): Label 'JTAG_TCK'
 [isolated_pin_label]: Label connected to only one pin
     ; warning
-    @(361.95 mm, 99.06 mm): Label 'JTAG_TDI'
+    @(429.26 mm, 81.28 mm): Label 'JTAG_TDI'
 [isolated_pin_label]: Label connected to only one pin
     ; warning
-    @(361.95 mm, 101.60 mm): Label 'JTAG_TMS'
+    @(429.26 mm, 83.82 mm): Label 'JTAG_TMS'
 [isolated_pin_label]: Label connected to only one pin
     ; warning
-    @(361.95 mm, 104.14 mm): Label 'JTAG_TDO'
+    @(429.26 mm, 86.36 mm): Label 'JTAG_TDO'
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(447.04 mm, 176.53 mm): Label 'FPGA_MSI_WP'
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(447.04 mm, 179.07 mm): Label 'FPGA_RDWR_B'
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(447.04 mm, 181.61 mm): Label 'FPGA_MSPI_HOLD'
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(447.04 mm, 184.15 mm): Label 'IO_B0_0'
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(447.04 mm, 186.69 mm): Label 'FPGA_UART_TX'
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(447.04 mm, 189.23 mm): Label 'FPGA_UART_rx'
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(447.04 mm, 191.77 mm): Label 'IO_B0_1'
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(447.04 mm, 194.31 mm): Label 'IO_B0_2'
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(447.04 mm, 196.85 mm): Label 'IO_B1_0'
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(447.04 mm, 199.39 mm): Label 'IO_B1_1'
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(447.04 mm, 201.93 mm): Label 'IO_B1_2'
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(447.04 mm, 204.47 mm): Label 'IO_B1_3'
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(447.04 mm, 207.01 mm): Label 'FPGA_MSPI_MISO'
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(447.04 mm, 209.55 mm): Label 'FPGA_MSPI_MOSI'
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(447.04 mm, 212.09 mm): Label 'IO_B1_4'
 
 ***** Sheet /01_Power/
 
 ***** Sheet /02_FPGA_Core/
 [pin_not_driven]: Input pin not driven by any Output pins
     ; error
-    @(391.16 mm, 96.52 mm): Symbol U4 Pin C1 [TCK/IOB14A, Input, Line]
+    @(458.47 mm, 78.74 mm): Symbol U4 Pin C1 [TCK/IOB14A, Input, Line]
 [pin_not_driven]: Input pin not driven by any Output pins
     ; error
-    @(391.16 mm, 99.06 mm): Symbol U4 Pin A3 [TDI/IOB10B, Input, Line]
+    @(458.47 mm, 81.28 mm): Symbol U4 Pin A3 [TDI/IOB10B, Input, Line]
 [pin_not_driven]: Input pin not driven by any Output pins
     ; error
-    @(391.16 mm, 101.60 mm): Symbol U4 Pin B1 [TMS/IOB10A, Input, Line]
-[missing_bidi_pin]: Symbol U4 has bidirectional pins in units [ C, D, E ] that are not placed
+    @(458.47 mm, 83.82 mm): Symbol U4 Pin B1 [TMS/IOB10A, Input, Line]
+[missing_bidi_pin]: Symbol U4 has bidirectional pins in units [ D, E ] that are not placed
     ; warning
-    @(436.88 mm, 106.68 mm): Symbol U4 [GW5A-LV25MG121N]
-[missing_unit]: Symbol U4 has unplaced units [ C, D, E ]
+    @(227.33 mm, 102.87 mm): Symbol U4 [GW5A-LV25MG121N]
+[missing_unit]: Symbol U4 has unplaced units [ D, E ]
     ; warning
-    @(436.88 mm, 106.68 mm): Symbol U4 [GW5A-LV25MG121N]
+    @(227.33 mm, 102.87 mm): Symbol U4 [GW5A-LV25MG121N]
 
 ***** Sheet /03_Debugger_BL616/
 
 ***** Sheet /04_Peripherals/
 
- ** ERC messages: 9  Errors 3  Warnings 6
+ ** ERC messages: 24  Errors 3  Warnings 21
 
  ** Ignored checks:
     - Global label only appears once in the schematic
