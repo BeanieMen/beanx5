@@ -1,13 +1,44 @@
-ERC report (2026-10-27T23:52:08, Encoding UTF8)
-Report includes: Errors, Warnings
+ERC report (2026-11-01T22:35:14, Encoding UTF8)
+Report includes: Errors, Warnings, Exclusions
 
 ***** Sheet /
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(361.95 mm, 96.52 mm): Label 'JTAG_TCK'
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(361.95 mm, 99.06 mm): Label 'JTAG_TDI'
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(361.95 mm, 101.60 mm): Label 'JTAG_TMS'
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(361.95 mm, 104.14 mm): Label 'JTAG_TDO'
 
 ***** Sheet /01_Power/
 
 ***** Sheet /02_FPGA_Core/
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(391.16 mm, 96.52 mm): Symbol U4 Pin C1 [TCK/IOB14A, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(391.16 mm, 99.06 mm): Symbol U4 Pin A3 [TDI/IOB10B, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(391.16 mm, 101.60 mm): Symbol U4 Pin B1 [TMS/IOB10A, Input, Line]
+[missing_bidi_pin]: Symbol U4 has bidirectional pins in units [ C, D, E ] that are not placed
+    ; warning
+    @(436.88 mm, 106.68 mm): Symbol U4 [GW5A-LV25MG121N]
+[missing_unit]: Symbol U4 has unplaced units [ C, D, E ]
+    ; warning
+    @(436.88 mm, 106.68 mm): Symbol U4 [GW5A-LV25MG121N]
 
- ** ERC messages: 0  Errors 0  Warnings 0
+***** Sheet /03_Debugger_BL616/
+
+***** Sheet /04_Peripherals/
+
+ ** ERC messages: 9  Errors 3  Warnings 6
 
  ** Ignored checks:
     - Global label only appears once in the schematic
