@@ -1,7 +1,76 @@
-ERC report (2026-11-01T22:57:13, Encoding UTF8)
-Report includes: Errors, Warnings, Exclusions
+ERC report (2026-11-02T00:12:10, Encoding UTF8)
+Report includes: Errors, Warnings
 
 ***** Sheet /
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(185.42 mm, 185.42 mm): Label 'EXT_IO0'
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(185.42 mm, 187.96 mm): Label 'EXT_IO1'
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(185.42 mm, 190.50 mm): Label 'EXT_IO2'
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(185.42 mm, 193.04 mm): Label 'EXT_IO3'
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(185.42 mm, 195.58 mm): Label 'EXT_IO4'
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(185.42 mm, 198.12 mm): Label 'EXT_IO5'
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(185.42 mm, 200.66 mm): Label 'EXT_IO6'
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(185.42 mm, 203.20 mm): Label 'EXT_IO7'
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(185.42 mm, 205.74 mm): Label 'EXT_IO8'
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(185.42 mm, 208.28 mm): Label 'EXT_IO9'
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(185.42 mm, 210.82 mm): Label 'EXT_IO10'
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(185.42 mm, 213.36 mm): Label 'EXT_IO11'
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(185.42 mm, 215.90 mm): Label 'EXT_IO12'
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(185.42 mm, 218.44 mm): Label 'EXT_IO13'
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(185.42 mm, 220.98 mm): Label 'EXT_IO14'
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(427.99 mm, 250.19 mm): Label 'TMDS_D0_P'
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(427.99 mm, 252.73 mm): Label 'TMDS_D0_N'
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(427.99 mm, 255.27 mm): Label 'TMDS_CLK_P'
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(427.99 mm, 257.81 mm): Label 'TMDS_CLK_N'
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(427.99 mm, 267.97 mm): Label 'TMDS_D1_P'
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(427.99 mm, 270.51 mm): Label 'TMDS_D1_N'
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(427.99 mm, 273.05 mm): Label 'TMDS_D2_P'
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(427.99 mm, 275.59 mm): Label 'TMDS_D2_N'
 [isolated_pin_label]: Label connected to only one pin
     ; warning
     @(429.26 mm, 78.74 mm): Label 'JTAG_TCK'
@@ -16,13 +85,28 @@ Report includes: Errors, Warnings, Exclusions
     @(429.26 mm, 86.36 mm): Label 'JTAG_TDO'
 [isolated_pin_label]: Label connected to only one pin
     ; warning
-    @(447.04 mm, 176.53 mm): Label 'FPGA_MSI_WP'
+    @(429.26 mm, 321.31 mm): Label 'SD_CLK'
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(429.26 mm, 323.85 mm): Label 'SD_CMD'
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(429.26 mm, 336.55 mm): Label 'SD_D0'
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(429.26 mm, 339.09 mm): Label 'SD_D1'
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(429.26 mm, 341.63 mm): Label 'SD_D2'
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(429.26 mm, 344.17 mm): Label 'SD_D3'
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(429.26 mm, 346.71 mm): Label 'USER_KEY1'
 [isolated_pin_label]: Label connected to only one pin
     ; warning
     @(447.04 mm, 179.07 mm): Label 'FPGA_RDWR_B'
-[isolated_pin_label]: Label connected to only one pin
-    ; warning
-    @(447.04 mm, 181.61 mm): Label 'FPGA_MSPI_HOLD'
 [isolated_pin_label]: Label connected to only one pin
     ; warning
     @(447.04 mm, 184.15 mm): Label 'IO_B0_0'
@@ -31,7 +115,7 @@ Report includes: Errors, Warnings, Exclusions
     @(447.04 mm, 186.69 mm): Label 'FPGA_UART_TX'
 [isolated_pin_label]: Label connected to only one pin
     ; warning
-    @(447.04 mm, 189.23 mm): Label 'FPGA_UART_rx'
+    @(447.04 mm, 189.23 mm): Label 'FPGA_UART_RX'
 [isolated_pin_label]: Label connected to only one pin
     ; warning
     @(447.04 mm, 191.77 mm): Label 'IO_B0_1'
@@ -52,12 +136,6 @@ Report includes: Errors, Warnings, Exclusions
     @(447.04 mm, 204.47 mm): Label 'IO_B1_3'
 [isolated_pin_label]: Label connected to only one pin
     ; warning
-    @(447.04 mm, 207.01 mm): Label 'FPGA_MSPI_MISO'
-[isolated_pin_label]: Label connected to only one pin
-    ; warning
-    @(447.04 mm, 209.55 mm): Label 'FPGA_MSPI_MOSI'
-[isolated_pin_label]: Label connected to only one pin
-    ; warning
     @(447.04 mm, 212.09 mm): Label 'IO_B1_4'
 
 ***** Sheet /01_Power/
@@ -72,18 +150,12 @@ Report includes: Errors, Warnings, Exclusions
 [pin_not_driven]: Input pin not driven by any Output pins
     ; error
     @(458.47 mm, 83.82 mm): Symbol U4 Pin B1 [TMS/IOB10A, Input, Line]
-[missing_bidi_pin]: Symbol U4 has bidirectional pins in units [ D, E ] that are not placed
-    ; warning
-    @(227.33 mm, 102.87 mm): Symbol U4 [GW5A-LV25MG121N]
-[missing_unit]: Symbol U4 has unplaced units [ D, E ]
-    ; warning
-    @(227.33 mm, 102.87 mm): Symbol U4 [GW5A-LV25MG121N]
 
 ***** Sheet /03_Debugger_BL616/
 
 ***** Sheet /04_Peripherals/
 
- ** ERC messages: 24  Errors 3  Warnings 21
+ ** ERC messages: 48  Errors 3  Warnings 45
 
  ** Ignored checks:
     - Global label only appears once in the schematic
