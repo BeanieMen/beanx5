@@ -501,7 +501,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Memory_Flash:W25Q32JVSS"
+		(symbol "Memory_Flash:W25Q64JVSS"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -517,7 +517,7 @@
 					)
 				)
 			)
-			(property "Value" "W25Q32JVSS"
+			(property "Value" "W25Q64JVSS"
 				(at 7.62 11.43 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -538,7 +538,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "http://www.winbond.com/resource-files/w25q32jv%20revg%2003272018%20plus.pdf"
+			(property "Datasheet" "http://www.winbond.com/resource-files/w25q64jv%20revj%2003272018%20plus.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -549,7 +549,7 @@
 					)
 				)
 			)
-			(property "Description" "32Mbit / 4MiB Serial Flash Memory, Standard/Dual/Quad SPI, 2.7-3.6V, SOIC-8 (208 mil)"
+			(property "Description" "64Mbit / 8MiB Serial Flash Memory, Standard/Dual/Quad SPI, 2.7-3.6V, SOIC-8 (208 mil)"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -582,7 +582,7 @@
 					)
 				)
 			)
-			(symbol "W25Q32JVSS_0_1"
+			(symbol "W25Q64JVSS_0_1"
 				(rectangle
 					(start -7.62 10.16)
 					(end 10.16 -10.16)
@@ -595,7 +595,7 @@
 					)
 				)
 			)
-			(symbol "W25Q32JVSS_1_1"
+			(symbol "W25Q64JVSS_1_1"
 				(pin input line
 					(at -10.16 7.62 0)
 					(length 2.54)
@@ -11993,7 +11993,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Memory_Flash:W25Q32JVSS")
+		(lib_id "Memory_Flash:W25Q64JVSS")
 		(at 378.46 170.18 0)
 		(unit 1)
 		(body_style 1)
@@ -12037,7 +12037,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.winbond.com/resource-files/w25q32jv%20revg%2003272018%20plus.pdf"
+		(property "Datasheet" "http://www.winbond.com/resource-files/w25q64jv%20revj%2003272018%20plus.pdf"
 			(at 378.46 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -12048,7 +12048,7 @@
 				)
 			)
 		)
-		(property "Description" "32Mbit / 4MiB Serial Flash Memory, Standard/Dual/Quad SPI, 2.7-3.6V, SOIC-8 (208 mil)"
+		(property "Description" "64Mbit / 8MiB Serial Flash Memory, Standard/Dual/Quad SPI, 2.7-3.6V, SOIC-8 (208 mil)"
 			(at 378.46 170.18 0)
 			(hide yes)
 			(show_name no)
