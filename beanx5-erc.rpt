@@ -1,4 +1,4 @@
-ERC report (2026-11-07T23:09:41, Encoding UTF8)
+ERC report (2026-11-07T23:49:53, Encoding UTF8)
 Report includes: Errors, Warnings, Exclusions
 
 ***** Sheet /
@@ -49,9 +49,6 @@ Report includes: Errors, Warnings, Exclusions
     @(185.42 mm, 220.98 mm): Global Label 'EXT_IO14'
 [isolated_pin_label]: Label connected to only one pin
     ; warning
-    @(429.26 mm, 346.71 mm): Global Label 'USER_KEY1'
-[isolated_pin_label]: Label connected to only one pin
-    ; warning
     @(447.04 mm, 179.07 mm): Global Label 'FPGA_RDWR_B'
 [isolated_pin_label]: Label connected to only one pin
     ; warning
@@ -85,11 +82,8 @@ Report includes: Errors, Warnings, Exclusions
 ***** Sheet /03_Debugger_BL616/
 
 ***** Sheet /04_Peripherals/
-[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
-    ; error
-    @(210.82 mm, 74.93 mm): Symbol J3 Pin 4 [VDD, Power input, Line]
 
- ** ERC messages: 26  Errors 1  Warnings 25
+ ** ERC messages: 24  Errors 0  Warnings 24
 
  ** Ignored checks:
     - Global label only appears once in the schematic
