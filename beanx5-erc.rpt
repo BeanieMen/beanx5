@@ -1,79 +1,7 @@
-ERC report (2026-11-07T23:49:53, Encoding UTF8)
+ERC report (2026-11-08T14:50:50, Encoding UTF8)
 Report includes: Errors, Warnings, Exclusions
 
 ***** Sheet /
-[isolated_pin_label]: Label connected to only one pin
-    ; warning
-    @(185.42 mm, 185.42 mm): Global Label 'EXT_IO0'
-[isolated_pin_label]: Label connected to only one pin
-    ; warning
-    @(185.42 mm, 187.96 mm): Global Label 'EXT_IO1'
-[isolated_pin_label]: Label connected to only one pin
-    ; warning
-    @(185.42 mm, 190.50 mm): Global Label 'EXT_IO2'
-[isolated_pin_label]: Label connected to only one pin
-    ; warning
-    @(185.42 mm, 193.04 mm): Global Label 'EXT_IO3'
-[isolated_pin_label]: Label connected to only one pin
-    ; warning
-    @(185.42 mm, 195.58 mm): Global Label 'EXT_IO4'
-[isolated_pin_label]: Label connected to only one pin
-    ; warning
-    @(185.42 mm, 198.12 mm): Global Label 'EXT_IO5'
-[isolated_pin_label]: Label connected to only one pin
-    ; warning
-    @(185.42 mm, 200.66 mm): Global Label 'EXT_IO6'
-[isolated_pin_label]: Label connected to only one pin
-    ; warning
-    @(185.42 mm, 203.20 mm): Global Label 'EXT_IO7'
-[isolated_pin_label]: Label connected to only one pin
-    ; warning
-    @(185.42 mm, 205.74 mm): Global Label 'EXT_IO8'
-[isolated_pin_label]: Label connected to only one pin
-    ; warning
-    @(185.42 mm, 208.28 mm): Global Label 'EXT_IO9'
-[isolated_pin_label]: Label connected to only one pin
-    ; warning
-    @(185.42 mm, 210.82 mm): Global Label 'EXT_IO10'
-[isolated_pin_label]: Label connected to only one pin
-    ; warning
-    @(185.42 mm, 213.36 mm): Global Label 'EXT_IO11'
-[isolated_pin_label]: Label connected to only one pin
-    ; warning
-    @(185.42 mm, 215.90 mm): Global Label 'EXT_IO12'
-[isolated_pin_label]: Label connected to only one pin
-    ; warning
-    @(185.42 mm, 218.44 mm): Global Label 'EXT_IO13'
-[isolated_pin_label]: Label connected to only one pin
-    ; warning
-    @(185.42 mm, 220.98 mm): Global Label 'EXT_IO14'
-[isolated_pin_label]: Label connected to only one pin
-    ; warning
-    @(447.04 mm, 179.07 mm): Global Label 'FPGA_RDWR_B'
-[isolated_pin_label]: Label connected to only one pin
-    ; warning
-    @(447.04 mm, 184.15 mm): Global Label 'IO_B0_0'
-[isolated_pin_label]: Label connected to only one pin
-    ; warning
-    @(447.04 mm, 191.77 mm): Global Label 'IO_B0_1'
-[isolated_pin_label]: Label connected to only one pin
-    ; warning
-    @(447.04 mm, 194.31 mm): Global Label 'IO_B0_2'
-[isolated_pin_label]: Label connected to only one pin
-    ; warning
-    @(447.04 mm, 196.85 mm): Global Label 'IO_B1_0'
-[isolated_pin_label]: Label connected to only one pin
-    ; warning
-    @(447.04 mm, 199.39 mm): Global Label 'IO_B1_1'
-[isolated_pin_label]: Label connected to only one pin
-    ; warning
-    @(447.04 mm, 201.93 mm): Global Label 'IO_B1_2'
-[isolated_pin_label]: Label connected to only one pin
-    ; warning
-    @(447.04 mm, 204.47 mm): Global Label 'IO_B1_3'
-[isolated_pin_label]: Label connected to only one pin
-    ; warning
-    @(447.04 mm, 212.09 mm): Global Label 'IO_B1_4'
 
 ***** Sheet /01_Power/
 
@@ -83,7 +11,7 @@ Report includes: Errors, Warnings, Exclusions
 
 ***** Sheet /04_Peripherals/
 
- ** ERC messages: 24  Errors 0  Warnings 24
+ ** ERC messages: 0  Errors 0  Warnings 0
 
  ** Ignored checks:
     - Global label only appears once in the schematic
