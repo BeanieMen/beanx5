@@ -11,6 +11,11 @@ hardware/pcb/.history/
 beanx5-erc.json
 beanx5-erc.rpt
 beanx5.xml
+*-erc.rpt
+*-erc.json
+*.rpt
+_restore_backup_*/
+hardware/pcb/_restore_backup_*/
 
 __pycache__/
 *.py[cod]
