@@ -5225,7 +5225,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c8da9572-0f66-4f1d-9ec0-3c56b76196db")
-		(property "Reference" "L3"
+		(property "Reference" "L4"
 			(at 190.5 187.96 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5285,7 +5285,7 @@
 		(instances
 			(project "beanx5"
 				(path "/af63fa6e-973d-4760-8f53-35b43d2ef866/79e0fd38-7692-46d5-aa80-8eb471c348ac"
-					(reference "L3")
+					(reference "L4")
 					(unit 1)
 				)
 			)

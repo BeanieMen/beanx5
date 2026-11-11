@@ -501,7 +501,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Memory_Flash:W25Q64JVSS"
+		(symbol "symbol-table:W25Q64JVSS"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -931,7 +931,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+0V9"
+		(symbol "symbol-table:+0V9"
 			(power global)
 			(pin_numbers
 				(hide yes)
@@ -11353,7 +11353,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+1V2")
+		(lib_id "symbol-table:+0V9")
 		(at 158.75 64.77 0)
 		(unit 1)
 		(body_style 1)
@@ -12516,7 +12516,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Memory_Flash:W25Q64JVSS")
+		(lib_id "symbol-table:W25Q64JVSS")
 		(at 378.46 170.18 0)
 		(unit 1)
 		(body_style 1)
@@ -13098,7 +13098,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+1V2")
+		(lib_id "symbol-table:+0V9")
 		(at 173.99 69.85 90)
 		(unit 1)
 		(body_style 1)
@@ -13327,7 +13327,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+1V2")
+		(lib_id "symbol-table:+0V9")
 		(at 146.05 64.77 0)
 		(unit 1)
 		(body_style 1)
@@ -13405,7 +13405,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+1V2")
+		(lib_id "symbol-table:+0V9")
 		(at 180.34 87.63 0)
 		(unit 1)
 		(body_style 1)
@@ -13887,7 +13887,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+1V2")
+		(lib_id "symbol-table:+0V9")
 		(at 133.35 64.77 0)
 		(unit 1)
 		(body_style 1)
