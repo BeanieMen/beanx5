@@ -4429,7 +4429,7 @@
 		(uuid "d86f8d8a-3e49-4b5e-8d1b-42e13c306113")
 	)
 	(no_connect
-		(at 445.77 265.43)
+		(at 445.77 275.59)
 		(uuid "dbc81662-d89b-4f29-922a-32d68d207011")
 	)
 	(no_connect
@@ -5466,7 +5466,7 @@
 	)
 	(wire
 		(pts
-			(xy 427.99 275.59) (xy 445.77 275.59)
+			(xy 427.99 265.43) (xy 445.77 265.43)
 		)
 		(stroke
 			(width 0)
@@ -6716,7 +6716,7 @@
 	)
 	(global_label "TMDS_D1_P"
 		(shape bidirectional)
-		(at 427.99 267.97 0)
+		(at 427.99 265.43 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6725,7 +6725,7 @@
 		)
 		(uuid "508870e9-3a62-42a8-bdeb-9cf318d041de")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 427.99 267.97 0)
+			(at 427.99 265.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6914,7 +6914,7 @@
 	)
 	(global_label "TMDS_D2_P"
 		(shape bidirectional)
-		(at 427.99 273.05 0)
+		(at 427.99 270.51 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6923,7 +6923,7 @@
 		)
 		(uuid "90934963-664a-4634-b6f7-14d023591426")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 427.99 273.05 0)
+			(at 427.99 270.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7090,7 +7090,7 @@
 	)
 	(global_label "TMDS_D2_N"
 		(shape bidirectional)
-		(at 427.99 275.59 0)
+		(at 427.99 273.05 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7099,7 +7099,7 @@
 		)
 		(uuid "c4a5ec7f-0d3f-43eb-8487-cab956fbc0ff")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 427.99 275.59 0)
+			(at 427.99 273.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7266,7 +7266,7 @@
 	)
 	(global_label "TMDS_D1_N"
 		(shape bidirectional)
-		(at 427.99 270.51 0)
+		(at 427.99 267.97 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7275,7 +7275,7 @@
 		)
 		(uuid "f4516020-7225-4d5d-84df-3b3e40678a53")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 427.99 270.51 0)
+			(at 427.99 267.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
