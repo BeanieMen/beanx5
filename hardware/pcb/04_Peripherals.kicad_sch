@@ -5578,7 +5578,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_PTS645Sx43SMTR92"
 			(at 219.71 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -5660,7 +5660,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 246.0752 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -5809,7 +5809,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10k"
 			(at 223.52 22.8599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5820,7 +5820,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 219.202 21.59 90)
 			(hide yes)
 			(show_name no)
@@ -6136,7 +6136,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 45.212 104.14 90)
 			(hide yes)
 			(show_name no)
@@ -6285,7 +6285,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "2.2k"
 			(at 36.83 96.5199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6296,7 +6296,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 32.512 95.25 90)
 			(hide yes)
 			(show_name no)
@@ -6378,7 +6378,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Video:HDMI_A_Amphenol_10029449-x01xLF_Horizontal"
 			(at 61.595 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -6514,7 +6514,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 60.96 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -6596,7 +6596,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10k"
 			(at 231.14 22.8599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6607,7 +6607,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 226.822 21.59 90)
 			(hide yes)
 			(show_name no)
@@ -6847,7 +6847,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 223.012 83.82 90)
 			(hide yes)
 			(show_name no)
@@ -6929,7 +6929,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 40.132 91.44 90)
 			(hide yes)
 			(show_name no)
@@ -7156,7 +7156,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10k"
 			(at 226.06 22.8599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7167,7 +7167,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 221.742 21.59 90)
 			(hide yes)
 			(show_name no)
@@ -7316,7 +7316,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10k"
 			(at 228.6 22.8599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7327,7 +7327,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 224.282 21.59 90)
 			(hide yes)
 			(show_name no)
@@ -7407,7 +7407,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical"
 			(at 142.24 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -7621,7 +7621,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 59.182 142.24 90)
 			(hide yes)
 			(show_name no)
@@ -7703,7 +7703,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 79.7052 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -8010,7 +8010,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10k"
 			(at 233.68 22.8599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8021,7 +8021,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 229.362 21.59 90)
 			(hide yes)
 			(show_name no)
@@ -8101,7 +8101,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x06_P2.54mm_Vertical"
 			(at 142.24 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -8372,7 +8372,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Card:microSD_HC_Molex_47219-2001"
 			(at 281.94 35.56 0)
 			(hide yes)
 			(show_name no)

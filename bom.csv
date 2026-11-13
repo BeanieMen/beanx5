@@ -1,29 +1,44 @@
 Designator,Quantity,Component,Description,Package/Footprint,LCSC Part #,JLCPCB Part Type,Est Unit Price (USD),Subtotal (USD)
-U1,1,GW5A-LV25MG121NC1/I0,"Gowin Arora-V 23K LUT FPGA, 121-ball MBGA",BGA-121_9.0x9.0mm_P0.8mm,C5364132,Extended,45.50,45.50
-U2,1,BL616,"Bouffalo Lab RISC-V Wi-Fi/BLE MCU (USB JTAG + UART Debugger)",QFN-40_5.0x5.0mm_P0.4mm,C5314781,Extended,1.85,1.85
-U3,1,W25Q64JVSSIQ,"64M-bit (8MB) SPI NOR Flash, 133MHz",SOIC-8_208mil,C96557,Basic,0.42,0.42
-U4,1,TLV62569DBVR,"Buck Converter 3.3V to 1.2V Core VCC (2A)",SOT-23-5,C191490,Basic,0.35,0.35
+U4,1,GW5A-LV25MG121NC1/I0,"Gowin Arora-V 23K LUT FPGA, 121-ball MBGA",BGA-121_9.0x9.0mm_P0.8mm,C5364132,Extended,45.50,45.50
+U7,1,BL616,"Bouffalo Lab RISC-V Wi-Fi/BLE MCU (USB JTAG + UART Debugger)",QFN-40_5.0x5.0mm_P0.4mm,C5314781,Extended,1.85,1.85
+U6,1,W25Q64JVSSIQ,"64M-bit (8MB) SPI NOR Flash, 133MHz",SOIC-8_208mil,C96557,Basic,0.42,0.42
+U1,1,TLV62569DBVR,"Buck Converter 3.3V to 1.2V Core VCC (2A)",SOT-23-5,C191490,Basic,0.35,0.35
 U5,1,TLV62569DBVR,"Buck Converter 5V to 3.3V VCCIO/System (2A)",SOT-23-5,C191490,Basic,0.35,0.35
-U6,1,TLV73325PDBVR,"LDO 3.3V to 2.5V Auxiliary VCCX (300mA)",SOT-23-5,C495821,Basic,0.22,0.22
-U7,1,TLV73318PDBVR,"LDO 3.3V to 1.8V VDD18 (300mA)",SOT-23-5,C495822,Basic,0.22,0.22
-Y1,1,27MHz,"27.000MHz Crystal Oscillator (FPGA System Clock)",SMD-3225-4P,C388914,Basic,0.18,0.18
-Y2,1,40MHz,"40.000MHz Crystal Oscillator (BL616 Debugger Clock)",SMD-3225-4P,C115962,Basic,0.15,0.15
-J1,1,TYPE-C-16P,"USB Type-C Receptacle 16-Pin (Power, JTAG & Serial UART)",SMD_USB-C-16P,C7204787,Basic,0.25,0.25
-J2,1,HDMI-A-19P,"HDMI Type-A Female Receptacle (DVI/HDMI Out)",SMD_HDMI-19P,C92348,Extended,0.45,0.45
+U8,1,TLV62569DBVR,"Buck Converter 3.3V to 0.9V Core VCC (2A) [New 0V9 Rail]",SOT-23-5,C191490,Basic,0.35,0.35
+U2,1,TLV73325PDBVR,"LDO 3.3V to 2.5V Auxiliary VCCX (300mA)",SOT-23-5,C495821,Basic,0.22,0.22
+U3,1,TLV73318PDBVR,"LDO 3.3V to 1.8V VDD18 (300mA)",SOT-23-5,C495822,Basic,0.22,0.22
+Y1,1,SG-210STF 27MHz,"27.000MHz Crystal Oscillator (FPGA System Clock)",SMD-2520-4P,C388914,Basic,0.18,0.18
+Y2,1,40MHz Crystal,"40.000MHz Crystal Resonator (BL616 Debugger Clock)",SMD-3225-4P,C115962,Basic,0.15,0.15
+J1,1,HC-TYPE-C-16P-01A,"USB Type-C Receptacle 16-Pin (Power, JTAG & Serial UART)",SMD_USB-C-16P,C7204787,Basic,0.25,0.25
+J2,1,HDMI-A-19P,"HDMI Type-A Female Receptacle Horizontal",SMD_HDMI-19P,C92348,Extended,0.45,0.45
 J3,1,MICRO-SD-01,"MicroSD / TF Card Socket (Push-Pull, SPI/SDIO Mode)",SMD_MicroSD-9P,C3000407,Basic,0.28,0.28
-J4,1,2x10-P2.54,"2x10 Pin Header 2.54mm Pitch (GPIO / RMII Ethernet Extension)",HDR-2x10_P2.54mm,C225501,Basic,0.15,0.15
-L1-L2,2,2.2uH,"Power Inductor 2.2uH 2.5A Shielded",SMD-0805 / 2016,C38117,Basic,0.06,0.12
-D1-D4,4,ESD5304D,"Ultra-low Cap ESD Diode Array for HDMI / USB",DFN-10_2.5x1.0mm,C259021,Basic,0.08,0.32
-D5-D7,3,LED-0603,"Status LEDs (Power, FPGA DONE, User Status)",LED-0603,C2286,Basic,0.02,0.06
-SW1-SW2,2,TS-1187A,"Tactile Push Button Switches (Reset / User)",SMD-3.0x4.0mm,C318884,Basic,0.04,0.08
-R_BASIC,24,Resistors,"Assorted Resistors (0402/0603: Pull-ups, Termination, CC pins)",SMD-0402 / 0603,C25077,Basic,0.005,0.12
-C_BASIC,32,Capacitors,"Assorted Decoupling & Filter Caps (0402/0603: 0.1uF, 1uF, 10uF, 22uF)",SMD-0402 / 0603,C1525,Basic,0.006,0.19
+J4,1,HDR-2x10-P2.54,"2x10 Pin Header 2.54mm Pitch (GPIO / RMII Extension)",HDR-2x10_P2.54mm,C225501,Basic,0.15,0.15
+J5,1,HDR-2x06-P2.54,"2x06 Pin Header 2.54mm Pitch (PMX / JTAG Aux)",HDR-2x06_P2.54mm,C225502,Basic,0.12,0.12
+SW1-SW3,3,PTS645Sx43SMTR92,"Tactile Push Button Switches (BOOT, CHIP_EN, USER_KEY1)",SMD-6.0x6.0mm,C318884,Basic,0.04,0.12
+D1,1,LED-0603-GREEN,"FPGA DONE Status LED",LED-0603,C72043,Basic,0.02,0.02
+D2,1,LED-0603-RED,"User Status LED",LED-0603,C2286,Basic,0.02,0.02
+L1-L4,4,2.2uH,"Power Inductor 2.2uH 2.5A Shielded (Bucks & BL616)",SMD-0805 / 2012,C38117,Basic,0.06,0.24
+C_0603_10uF,6,10uF 10V/16V,"Ceramic Capacitor 10uF X5R/X7R (Buck In/Out & Bulk)",SMD-0603,C19702,Basic,0.015,0.09
+C_0603_22uF,6,22uF 10V/16V,"Ceramic Capacitor 22uF X5R (Buck In/Out Filters)",SMD-0603,C45783,Basic,0.022,0.13
+C_0402_0.1uF,30,0.1uF 16V/50V,"Decoupling Capacitors (FPGA Core/Banks, BL616, Flash)",SMD-0402,C1525,Basic,0.005,0.15
+C_0402_1uF,3,1uF 16V,"Bypass & LDO Output Filter Capacitors",SMD-0402,C52923,Basic,0.008,0.02
+C_0402_2.2uF,2,2.2uF 16V,"LDO Output Filter Capacitors (2.5V & 1.8V)",SMD-0402,C52924,Basic,0.009,0.02
+C_0402_10uF,2,10uF 10V,"BL616 Power Filter Capacitors",SMD-0402,C19702,Basic,0.015,0.03
+C_0402_22pF,3,22pF 50V,"Buck Converter Feedback Compensation Capacitors",SMD-0402,C1555,Basic,0.005,0.02
+C_0402_12pF,2,12pF 50V,"Crystal Resonator Load Capacitors (Y2)",SMD-0402,C1547,Basic,0.005,0.01
+R_0402_10k,11,10k 1%,"Pull-up / Pull-down Resistors (FPGA config, SD, BL616)",SMD-0402,C25744,Basic,0.005,0.06
+R_0402_100k,5,100k 1%,"Buck Feedback Lower Resistors & HDMI HPD Pull-down",SMD-0402,C25741,Basic,0.005,0.03
+R_0402_5.1k,2,5.1k 1%,"USB-C CC Pull-down Resistors",SMD-0402,C25905,Basic,0.005,0.01
+R_0402_1k,2,1k 1%,"LED Current Limiting Resistors (DONE & User LED)",SMD-0402,C11702,Basic,0.005,0.01
+R_0402_2.2k,1,2.2k 1%,"HDMI DDC I2C SDA Pull-up Resistor",SMD-0402,C25879,Basic,0.005,0.01
+R_0402_49.9k,1,49.9k 1%,"0.9V Buck Feedback Upper Resistor (TLV62569)",SMD-0402,C25792,Basic,0.005,0.01
+R_0402_453k,1,453k 1%,"3.3V Buck Feedback Upper Resistor (TLV62569)",SMD-0402,C23145,Basic,0.005,0.01
 # --- JLCPCB ASSEMBLY & MANUFACTURING ESTIMATE (5 Boards Batch) ---,,,,,,,,
 # Service Item,Qty,Details,Per Board (USD),Total Batch (USD),,,,
 # PCB Fabrication (4-Layer ENIG Impedance Controlled 50x50mm),5,JLCPCB JLC04161H-7628 / ENIG,3.60,18.00,,,,
 # SMT Setup Fee (Economic PCBA),1,Machine programming & visual alignment,1.64,8.18,,,,
 # SMT Stencil Fee,1,Laser cut stainless steel SMT stencil,0.31,1.53,,,,
-# Solder Joints Fee (~180 SMD joints per board),900 joints,$0.0016 per joint across 5 boards,0.29,1.44,,,,
+# Solder Joints Fee (~220 SMD joints per board),1100 joints,$0.0016 per joint across 5 boards,0.35,1.76,,,,
 # Extended Component Feeder Loading Fee (3 extended parts),3 parts,$3.07 per unique part (GW5A + BL616 + HDMI),1.84,9.21,,,,
-# Components Total (All 5 Boards),5 sets,$51.98 per board set of parts,51.98,259.90,,,,
-# Total Estimated Cost per Assembled Board (5 units batch),,,,59.66,,,,
+# Components Total (All 5 Boards),5 sets,$51.85 per board set of parts,51.85,259.25,,,,
+# Total Estimated Cost per Assembled Board (5 units batch),,,,59.59,,,,
