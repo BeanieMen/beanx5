@@ -28,3 +28,7 @@ env/
 Thumbs.db
 *.swp
 *~
+
+# generated LiteX/Gowin build output (regenerate with: python3 litex/minimal_beanx5.py --build)
+/build/
+/litex/build/

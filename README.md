@@ -1,5 +1,9 @@
 # beanx5 
 
+> **Migration in progress (stage 1/5 done, 2026-11-16):** the FPGA is now an **Intel Cyclone IV E EP4CE6E22C8N** (144-EQFP). The core sheet is replaced; power, programming straps, peripherals and validation are later stages. The schematic is mid-migration and **not fab-ready**. The old Gowin design is preserved in the git history. The sections below describe that previous design; the Gowin gateware and build instructions have not been ported to the Cyclone IV.
+
+## Previous Gowin design (reference only)
+
 an fpga dev board built around the Gowin Arora V GW5A-25 with an an onboard RISC-V SoC, HDMI, and USB-C
 
 

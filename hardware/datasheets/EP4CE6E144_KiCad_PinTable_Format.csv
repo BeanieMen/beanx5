@@ -1,0 +1,146 @@
+Number,Name,Electrical Type,Graphic Style,Orientation,Number Text Size,Name Text Size,Length,X Position,Y Position,Visible,Unit,Body Style
+5,VCCINT,Power Input,Line,Right,50,50,100,0,0,True,1,0
+29,VCCINT,Power Input,Line,Right,50,50,100,0,0,True,1,0
+45,VCCINT,Power Input,Line,Right,50,50,100,0,0,True,1,0
+61,VCCINT,Power Input,Line,Right,50,50,100,0,0,True,1,0
+78,VCCINT,Power Input,Line,Right,50,50,100,0,0,True,1,0
+102,VCCINT,Power Input,Line,Right,50,50,100,0,0,True,1,0
+116,VCCINT,Power Input,Line,Right,50,50,100,0,0,True,1,0
+134,VCCINT,Power Input,Line,Right,50,50,100,0,0,True,1,0
+37,VCCD_PLL1,Power Input,Line,Right,50,50,100,0,0,True,1,0
+109,VCCD_PLL2,Power Input,Line,Right,50,50,100,0,0,True,1,0
+17,VCCIO1,Power Input,Line,Right,50,50,100,0,0,True,1,0
+26,VCCIO2,Power Input,Line,Right,50,50,100,0,0,True,1,0
+40,VCCIO3,Power Input,Line,Right,50,50,100,0,0,True,1,0
+47,VCCIO3,Power Input,Line,Right,50,50,100,0,0,True,1,0
+56,VCCIO4,Power Input,Line,Right,50,50,100,0,0,True,1,0
+62,VCCIO4,Power Input,Line,Right,50,50,100,0,0,True,1,0
+81,VCCIO5,Power Input,Line,Right,50,50,100,0,0,True,1,0
+93,VCCIO6,Power Input,Line,Right,50,50,100,0,0,True,1,0
+117,VCCIO7,Power Input,Line,Right,50,50,100,0,0,True,1,0
+122,VCCIO7,Power Input,Line,Right,50,50,100,0,0,True,1,0
+130,VCCIO8,Power Input,Line,Right,50,50,100,0,0,True,1,0
+139,VCCIO8,Power Input,Line,Right,50,50,100,0,0,True,1,0
+35,VCCA1,Power Input,Line,Right,50,50,100,0,0,True,1,0
+107,VCCA2,Power Input,Line,Right,50,50,100,0,0,True,1,0
+4,GND,Power Input,Line,Right,50,50,100,0,0,True,1,0
+19,GND,Power Input,Line,Right,50,50,100,0,0,True,1,0
+22,GND,Power Input,Line,Right,50,50,100,0,0,True,1,0
+27,GND,Power Input,Line,Right,50,50,100,0,0,True,1,0
+41,GND,Power Input,Line,Right,50,50,100,0,0,True,1,0
+48,GND,Power Input,Line,Right,50,50,100,0,0,True,1,0
+57,GND,Power Input,Line,Right,50,50,100,0,0,True,1,0
+63,GND,Power Input,Line,Right,50,50,100,0,0,True,1,0
+79,GND,Power Input,Line,Right,50,50,100,0,0,True,1,0
+82,GND,Power Input,Line,Right,50,50,100,0,0,True,1,0
+95,GND,Power Input,Line,Right,50,50,100,0,0,True,1,0
+118,GND,Power Input,Line,Right,50,50,100,0,0,True,1,0
+123,GND,Power Input,Line,Right,50,50,100,0,0,True,1,0
+131,GND,Power Input,Line,Right,50,50,100,0,0,True,1,0
+140,GND,Power Input,Line,Right,50,50,100,0,0,True,1,0
+36,GNDA1,Power Input,Line,Right,50,50,100,0,0,True,1,0
+108,GNDA2,Power Input,Line,Right,50,50,100,0,0,True,1,0
+145,EPAD_GND,Power Input,Line,Right,50,50,100,0,0,True,1,0
+9,nSTATUS,Open Collector,Line,Right,50,50,100,0,0,True,2,0
+14,nCONFIG,Input,Line,Right,50,50,100,0,0,True,2,0
+92,CONF_DONE,Open Collector,Line,Right,50,50,100,0,0,True,2,0
+21,nCE,Input,Line,Right,50,50,100,0,0,True,2,0
+94,MSEL0,Input,Line,Right,50,50,100,0,0,True,2,0
+96,MSEL1,Input,Line,Right,50,50,100,0,0,True,2,0
+97,MSEL2,Input,Line,Right,50,50,100,0,0,True,2,0
+16,TCK,Input,Line,Right,50,50,100,0,0,True,2,0
+18,TMS,Input,Line,Right,50,50,100,0,0,True,2,0
+15,TDI,Input,Line,Right,50,50,100,0,0,True,2,0
+20,TDO,Output,Line,Right,50,50,100,0,0,True,2,0
+12,DCLK,Output,Line,Right,50,50,100,0,0,True,2,0
+13,IO/DATA0,Bidirectional,Line,Right,50,50,100,0,0,True,2,0
+6,IO/DATA1_ASDO,Bidirectional,Line,Right,50,50,100,0,0,True,2,0
+8,IO/FLASH_nCE_nCSO,Bidirectional,Line,Right,50,50,100,0,0,True,2,0
+86,IO/DEV_OE,Bidirectional,Line,Right,50,50,100,0,0,True,2,0
+87,IO/DEV_CLRn,Bidirectional,Line,Right,50,50,100,0,0,True,2,0
+98,IO/INIT_DONE,Bidirectional,Line,Right,50,50,100,0,0,True,2,0
+99,IO/CRC_ERROR,Bidirectional,Line,Right,50,50,100,0,0,True,2,0
+101,IO/nCEO,Bidirectional,Line,Right,50,50,100,0,0,True,2,0
+103,IO/CLKUSR,Bidirectional,Line,Right,50,50,100,0,0,True,2,0
+23,CLK1/DIFFCLK_0n,Input,Line,Right,50,50,100,0,0,True,2,0
+24,CLK2/DIFFCLK_1p,Input,Line,Right,50,50,100,0,0,True,2,0
+25,CLK3/DIFFCLK_1n,Input,Line,Right,50,50,100,0,0,True,2,0
+91,CLK4/DIFFCLK_2p,Input,Line,Right,50,50,100,0,0,True,2,0
+90,CLK5/DIFFCLK_2n,Input,Line,Right,50,50,100,0,0,True,2,0
+89,CLK6/DIFFCLK_3p,Input,Line,Right,50,50,100,0,0,True,2,0
+88,CLK7/DIFFCLK_3n,Input,Line,Right,50,50,100,0,0,True,2,0
+1,IO,Bidirectional,Line,Right,50,50,100,0,0,True,3,0
+2,IO,Bidirectional,Line,Right,50,50,100,0,0,True,3,0
+3,IO,Bidirectional,Line,Right,50,50,100,0,0,True,3,0
+7,IO/VREFB1N0,Bidirectional,Line,Right,50,50,100,0,0,True,3,0
+10,IO,Bidirectional,Line,Right,50,50,100,0,0,True,3,0
+11,IO,Bidirectional,Line,Right,50,50,100,0,0,True,3,0
+28,IO,Bidirectional,Line,Right,50,50,100,0,0,True,4,0
+30,IO,Bidirectional,Line,Right,50,50,100,0,0,True,4,0
+31,IO/VREFB2N0,Bidirectional,Line,Right,50,50,100,0,0,True,4,0
+32,IO/RUP1,Bidirectional,Line,Right,50,50,100,0,0,True,4,0
+33,IO/RDN1,Bidirectional,Line,Right,50,50,100,0,0,True,4,0
+34,IO,Bidirectional,Line,Right,50,50,100,0,0,True,4,0
+38,IO,Bidirectional,Line,Right,50,50,100,0,0,True,5,0
+39,IO,Bidirectional,Line,Right,50,50,100,0,0,True,5,0
+42,IO,Bidirectional,Line,Right,50,50,100,0,0,True,5,0
+43,IO/PLL1_CLKOUTp,Bidirectional,Line,Right,50,50,100,0,0,True,5,0
+44,IO/PLL1_CLKOUTn,Bidirectional,Line,Right,50,50,100,0,0,True,5,0
+46,IO/VREFB3N0,Bidirectional,Line,Right,50,50,100,0,0,True,5,0
+49,IO,Bidirectional,Line,Right,50,50,100,0,0,True,5,0
+50,IO,Bidirectional,Line,Right,50,50,100,0,0,True,5,0
+51,IO,Bidirectional,Line,Right,50,50,100,0,0,True,5,0
+52,IO,Bidirectional,Line,Right,50,50,100,0,0,True,5,0
+53,IO,Bidirectional,Line,Right,50,50,100,0,0,True,5,0
+54,IO,Bidirectional,Line,Right,50,50,100,0,0,True,6,0
+55,IO,Bidirectional,Line,Right,50,50,100,0,0,True,6,0
+58,IO,Bidirectional,Line,Right,50,50,100,0,0,True,6,0
+59,IO,Bidirectional,Line,Right,50,50,100,0,0,True,6,0
+60,IO,Bidirectional,Line,Right,50,50,100,0,0,True,6,0
+64,IO,Bidirectional,Line,Right,50,50,100,0,0,True,6,0
+65,IO/VREFB4N0,Bidirectional,Line,Right,50,50,100,0,0,True,6,0
+66,IO/RUP2,Bidirectional,Line,Right,50,50,100,0,0,True,6,0
+67,IO/RDN2,Bidirectional,Line,Right,50,50,100,0,0,True,6,0
+68,IO,Bidirectional,Line,Right,50,50,100,0,0,True,6,0
+69,IO,Bidirectional,Line,Right,50,50,100,0,0,True,6,0
+70,IO,Bidirectional,Line,Right,50,50,100,0,0,True,6,0
+71,IO,Bidirectional,Line,Right,50,50,100,0,0,True,6,0
+72,IO,Bidirectional,Line,Right,50,50,100,0,0,True,6,0
+73,IO,Bidirectional,Line,Right,50,50,100,0,0,True,7,0
+74,IO,Bidirectional,Line,Right,50,50,100,0,0,True,7,0
+75,IO,Bidirectional,Line,Right,50,50,100,0,0,True,7,0
+76,IO/RUP3,Bidirectional,Line,Right,50,50,100,0,0,True,7,0
+77,IO/RDN3,Bidirectional,Line,Right,50,50,100,0,0,True,7,0
+80,IO/VREFB5N0,Bidirectional,Line,Right,50,50,100,0,0,True,7,0
+83,IO,Bidirectional,Line,Right,50,50,100,0,0,True,7,0
+84,IO,Bidirectional,Line,Right,50,50,100,0,0,True,7,0
+85,IO,Bidirectional,Line,Right,50,50,100,0,0,True,7,0
+100,IO,Bidirectional,Line,Right,50,50,100,0,0,True,8,0
+104,IO,Bidirectional,Line,Right,50,50,100,0,0,True,8,0
+105,IO/VREFB6N0,Bidirectional,Line,Right,50,50,100,0,0,True,8,0
+106,IO,Bidirectional,Line,Right,50,50,100,0,0,True,8,0
+110,IO,Bidirectional,Line,Right,50,50,100,0,0,True,9,0
+111,IO,Bidirectional,Line,Right,50,50,100,0,0,True,9,0
+112,IO/PLL2_CLKOUTn,Bidirectional,Line,Right,50,50,100,0,0,True,9,0
+113,IO/PLL2_CLKOUTp,Bidirectional,Line,Right,50,50,100,0,0,True,9,0
+114,IO/RUP4,Bidirectional,Line,Right,50,50,100,0,0,True,9,0
+115,IO/RDN4,Bidirectional,Line,Right,50,50,100,0,0,True,9,0
+119,IO/VREFB7N0,Bidirectional,Line,Right,50,50,100,0,0,True,9,0
+120,IO,Bidirectional,Line,Right,50,50,100,0,0,True,9,0
+121,IO,Bidirectional,Line,Right,50,50,100,0,0,True,9,0
+124,IO,Bidirectional,Line,Right,50,50,100,0,0,True,9,0
+125,IO,Bidirectional,Line,Right,50,50,100,0,0,True,9,0
+126,IO,Bidirectional,Line,Right,50,50,100,0,0,True,9,0
+127,IO,Bidirectional,Line,Right,50,50,100,0,0,True,9,0
+128,IO,Bidirectional,Line,Right,50,50,100,0,0,True,10,0
+129,IO,Bidirectional,Line,Right,50,50,100,0,0,True,10,0
+132,IO/DATA2,Bidirectional,Line,Right,50,50,100,0,0,True,10,0
+133,IO/DATA3,Bidirectional,Line,Right,50,50,100,0,0,True,10,0
+135,IO,Bidirectional,Line,Right,50,50,100,0,0,True,10,0
+136,IO/VREFB8N0,Bidirectional,Line,Right,50,50,100,0,0,True,10,0
+137,IO/DATA5,Bidirectional,Line,Right,50,50,100,0,0,True,10,0
+138,IO/DATA6,Bidirectional,Line,Right,50,50,100,0,0,True,10,0
+141,IO,Bidirectional,Line,Right,50,50,100,0,0,True,10,0
+142,IO,Bidirectional,Line,Right,50,50,100,0,0,True,10,0
+143,IO,Bidirectional,Line,Right,50,50,100,0,0,True,10,0
+144,IO,Bidirectional,Line,Right,50,50,100,0,0,True,10,0
