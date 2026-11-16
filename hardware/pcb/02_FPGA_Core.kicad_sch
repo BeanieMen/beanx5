@@ -13209,7 +13209,7 @@
 				)
 			)
 		)
-		(property "Value" "+0V9"
+		(property "Value" "+1.2v"
 			(at 158.75 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16865,7 +16865,7 @@
 				)
 			)
 		)
-		(property "Value" "+0V9"
+		(property "Value" "+1.2v"
 			(at 146.05 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17656,7 +17656,7 @@
 				)
 			)
 		)
-		(property "Value" "+0V9"
+		(property "Value" "+1.2v"
 			(at 133.35 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
