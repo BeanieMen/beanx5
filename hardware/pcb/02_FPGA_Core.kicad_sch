@@ -5582,16 +5582,6 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 87.63) (xy 180.34 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "41246be5-1114-4c70-9b48-66e34b5af53c")
-	)
-	(wire
-		(pts
 			(xy 58.42 105.41) (xy 69.85 105.41)
 		)
 		(stroke
@@ -5713,17 +5703,6 @@
 			(type default)
 		)
 		(uuid "5a1e58c7-01d1-4cad-841e-539847692493")
-	)
-	(wire
-		(pts
-			(xy 179.07 100.33) (xy 179.07 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 18 255 124 1)
-		)
-		(uuid "5d0295ed-5499-4599-a9df-0659920a9608")
 	)
 	(wire
 		(pts
@@ -5981,17 +5960,6 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 90.17) (xy 180.34 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 35 190 255 1)
-		)
-		(uuid "81b8a677-f5ee-41ea-91ec-ad69caa5e26c")
-	)
-	(wire
-		(pts
 			(xy 234.28 241.75) (xy 216.5 241.75)
 		)
 		(stroke
@@ -6097,17 +6065,6 @@
 			(color 35 190 255 1)
 		)
 		(uuid "8f73ab1f-9299-4b30-b137-88e9be0921ca")
-	)
-	(wire
-		(pts
-			(xy 106.68 110.49) (xy 106.68 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 18 255 124 1)
-		)
-		(uuid "90616ef8-8de4-4066-b021-2cb9e0d097d7")
 	)
 	(wire
 		(pts
@@ -6345,26 +6302,6 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 69.85) (xy 179.07 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b0000001-c000-4000-8000-000000000001")
-	)
-	(wire
-		(pts
-			(xy 173.99 69.85) (xy 179.07 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b0000001-c000-4000-8000-000000000006")
-	)
-	(wire
-		(pts
 			(xy 234.28 236.67) (xy 216.5 236.67)
 		)
 		(stroke
@@ -6514,17 +6451,6 @@
 			(color 35 190 255 1)
 		)
 		(uuid "c998618d-fa3b-4f6e-b47f-0a95d47e7a4c")
-	)
-	(wire
-		(pts
-			(xy 179.07 110.49) (xy 106.68 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 18 255 124 1)
-		)
-		(uuid "c9c8a712-a8de-4634-b5a7-f9223b73d47f")
 	)
 	(wire
 		(pts
@@ -13209,7 +13135,7 @@
 				)
 			)
 		)
-		(property "Value" "+1.2v"
+		(property "Value" "+1V2"
 			(at 158.75 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15592,82 +15518,6 @@
 		)
 	)
 	(symbol
-		(lib_id "symbol-table:+0V9")
-		(at 173.99 69.85 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b0000001-c000-4000-8000-000000000004")
-		(property "Reference" "#PWR036"
-			(at 173.99 73.152 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+0V9"
-			(at 174.498 71.374 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 173.99 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 173.99 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 173.99 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b0000001-c000-4000-8000-000000000005")
-		)
-		(instances
-			(project "beanx5"
-				(path "/af63fa6e-973d-4760-8f53-35b43d2ef866/9925ae38-68a8-4578-8eba-8435ad978b5f"
-					(reference "#PWR036")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+1V2")
 		(at 173.99 97.79 180)
 		(unit 1)
@@ -16865,7 +16715,7 @@
 				)
 			)
 		)
-		(property "Value" "+1.2v"
+		(property "Value" "+1V2"
 			(at 146.05 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16915,84 +16765,6 @@
 			(project "beanx5"
 				(path "/af63fa6e-973d-4760-8f53-35b43d2ef866/9925ae38-68a8-4578-8eba-8435ad978b5f"
 					(reference "#PWR064")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "symbol-table:+0V9")
-		(at 180.34 87.63 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "c12a13b8-e94c-4cb3-9f91-05434a1ecc48")
-		(property "Reference" "#PWR061"
-			(at 180.34 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+0V9"
-			(at 182.118 84.074 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 180.34 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 180.34 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 180.34 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c3c53e07-9a62-4633-ab2d-5575a624a5dc")
-		)
-		(instances
-			(project "beanx5"
-				(path "/af63fa6e-973d-4760-8f53-35b43d2ef866/9925ae38-68a8-4578-8eba-8435ad978b5f"
-					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -17656,7 +17428,7 @@
 				)
 			)
 		)
-		(property "Value" "+1.2v"
+		(property "Value" "+1V2"
 			(at 133.35 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
