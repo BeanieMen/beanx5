@@ -8727,7 +8727,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_QFP:LQFP-144-1EP_20x20mm_P0.5mm"
+		(property "Footprint" "Package_QFP:EQFP-144-1EP_20x20mm_P0.5mm_EP6.61x5.615mm"
 			(at 519.43 344.17 0)
 			(hide yes)
 			(show_name no)
@@ -9633,7 +9633,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_QFP:LQFP-144-1EP_20x20mm_P0.5mm"
+		(property "Footprint" "Package_QFP:EQFP-144-1EP_20x20mm_P0.5mm_EP6.61x5.615mm"
 			(at 279.4 209.55 0)
 			(hide yes)
 			(show_name no)
@@ -10460,7 +10460,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_QFP:LQFP-144-1EP_20x20mm_P0.5mm"
+		(property "Footprint" "Package_QFP:EQFP-144-1EP_20x20mm_P0.5mm_EP6.61x5.615mm"
 			(at 519.43 264.38 0)
 			(hide yes)
 			(show_name no)
@@ -11846,7 +11846,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_QFP:LQFP-144-1EP_20x20mm_P0.5mm"
+		(property "Footprint" "Package_QFP:EQFP-144-1EP_20x20mm_P0.5mm_EP6.61x5.615mm"
 			(at 519.43 229.38 0)
 			(hide yes)
 			(show_name no)
@@ -13078,7 +13078,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_QFP:LQFP-144-1EP_20x20mm_P0.5mm"
+		(property "Footprint" "Package_QFP:EQFP-144-1EP_20x20mm_P0.5mm_EP6.61x5.615mm"
 			(at 519.43 34.38 0)
 			(hide yes)
 			(show_name no)
@@ -13667,7 +13667,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_QFP:LQFP-144-1EP_20x20mm_P0.5mm"
+		(property "Footprint" "Package_QFP:EQFP-144-1EP_20x20mm_P0.5mm_EP6.61x5.615mm"
 			(at 519.43 179.38 0)
 			(hide yes)
 			(show_name no)
@@ -14338,7 +14338,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_QFP:LQFP-144-1EP_20x20mm_P0.5mm"
+		(property "Footprint" "Package_QFP:EQFP-144-1EP_20x20mm_P0.5mm_EP6.61x5.615mm"
 			(at 519.43 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -16766,7 +16766,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_QFP:LQFP-144-1EP_20x20mm_P0.5mm"
+		(property "Footprint" "Package_QFP:EQFP-144-1EP_20x20mm_P0.5mm_EP6.61x5.615mm"
 			(at 519.43 71.38 0)
 			(hide yes)
 			(show_name no)
@@ -17277,7 +17277,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_QFP:LQFP-144-1EP_20x20mm_P0.5mm"
+		(property "Footprint" "Package_QFP:EQFP-144-1EP_20x20mm_P0.5mm_EP6.61x5.615mm"
 			(at 519.43 299.38 0)
 			(hide yes)
 			(show_name no)
@@ -19689,7 +19689,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_QFP:LQFP-144-1EP_20x20mm_P0.5mm"
+		(property "Footprint" "Package_QFP:EQFP-144-1EP_20x20mm_P0.5mm_EP6.61x5.615mm"
 			(at 289.56 335.28 0)
 			(hide yes)
 			(show_name no)
